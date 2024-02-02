@@ -1,18 +1,23 @@
 ---
 layout: page
-title: About
+title: about
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+#### About me
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Hi, I am a software developer/architect and trainer working with .Net and JS ecosystems, I am also fun of functional programming. [Here](http://mnajder.blogspot.com/) you can find my old blog (2008-2012).
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+#### Projects
 
+- [powerseq](https://github.com/marcinnajder/powerseq) - **power sequence**, operators like map, filter, reduce, .. working with lazy sequences (iterables)
+- [powerfp](https://github.com/marcinnajder/powerfp) - **power functional programming**, functional programming utilities implemented in TypeScript (types like Option, Result, ResultS, Tree, List, .. functions like compose, pipe, curry, ...)
+- [mongo-shell-assistant](https://github.com/marcinnajder/mongo-shell-assistant) - **mongo shell assistant**, tool helping can help wtite mongo shell scripts
 
-[jekyll-organization]: https://github.com/jekyll
+#### Talks
+
+[Here](https://vimeo.com/user1185312) you can find my all talks. Most recently I have been talking about
+
+- [2019.11.12 Lisp in JavaScript (List w JavaScript PL)](https://vimeo.com/372738403)
+- [2019.06.19 Monads in JavaScript (Monady w JavaScript PL)](https://vimeo.com/343153316)
+- [2017.10.17 Full stack TypeScript for .net developer (Full stack TypeScript dla programisty .NET PL)](https://vimeo.com/238666636)
