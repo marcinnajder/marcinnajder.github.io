@@ -2,11 +2,12 @@
 layout: post
 title: Programming with sequences part 2 - frequently used operators
 date: 2022-11-04
+tags: js powerseq
 ---
 
 ## Introduction
 
-Last time, we discussed basic operators such as `filter`, `map`, `toarray` and `take`. Once we start using them, we perceive the code in a different way. A loop with an `if` clause inside becomes a `filter`, a loop mapping elements of collection becomes a `map`. The (powerseq)[https://github.com/marcinnajder/powerseq] library provides around 70 operators. When I do a code review, I repeatedly encounter the same code patterns. Frequently, a few lines of code can be substituted with a single line that calls an existing operator. Do we really have to use them? Not really. Every programmer, from day one, knows how to use variables, loops and ifs. It's very straightforward to write such an imperative code, everyone knows how to do this. However, such code is not easy to read, understand, and maintain. It might be familiar, but it's not necessarily simple.
+Last time, we discussed basic operators such as `filter`, `map`, `toarray` and `take`. Once we start using them, we perceive the code in a different way. A loop with an `if` clause inside becomes a `filter`, a loop mapping elements of collection becomes a `map`. The [powerseq](https://github.com/marcinnajder/powerseq) library provides around 70 operators. When I do a code review, I repeatedly encounter the same code patterns. Frequently, a few lines of code can be substituted with a single line that calls an existing operator. Do we really have to use them? Not really. Every programmer, from day one, knows how to use variables, loops and ifs. It's very straightforward to write such an imperative code, everyone knows how to do this. However, such code is not easy to read, understand, and maintain. It might be familiar, but it's not necessarily simple.
 
 In this article, we will walk through many code patterns written in an imperative style and attempt to transform them into a declarative style using operators from powerseq. In some cases, we will implement those operators ourselves to demonstrate their simplicity. We will be working with the following data model:
 

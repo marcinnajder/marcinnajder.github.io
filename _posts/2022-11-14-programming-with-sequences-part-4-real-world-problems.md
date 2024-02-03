@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Programming with sequences part 3 - real world problems
+title: Programming with sequences part 4 - real world problems
 date: 2022-11-14
+tags: js powerseq
 ---
 
 ## Introduction
