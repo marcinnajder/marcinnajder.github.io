@@ -188,7 +188,7 @@ pipe(
 ); // -> "110"
 ```
 
-The `pipe` function takes a `value` and any number of functions `funcs`, each function takes one argument and returns one result. The `pipe` function calls the first function from `funcs` collection, passing the `value` argument. The returned result is then passed to the second function, and so on and so forth. The final result becomes the result returned from `pipe` function. In many programming languages like OCaml, F#, ELM `pipe` function is available as the `|>` infix operator, and it is a crucial part of many codebases. One day it will also be available in (JavaScript language)[https://github.com/tc39/proposal-pipeline-operator]. Now let's look how `pipe` function can help us with our previous example:
+The `pipe` function takes a `value` and any number of functions `funcs`, each function takes one argument and returns one result. The `pipe` function calls the first function from `funcs` collection, passing the `value` argument. The returned result is then passed to the second function, and so on and so forth. The final result becomes the result returned from `pipe` function. In many programming languages like OCaml, F#, ELM `pipe` function is available as the `|>` infix operator, and it is a crucial part of many codebases. One day it will also be available in [JavaScript language](https://github.com/tc39/proposal-pipeline-operator). Now let's look how `pipe` function can help us with our previous example:
 
 ```javascript
 const positiveCurrencies = pipe(
