@@ -3,8 +3,11 @@ layout: post
 title: Programming with sequences part 2 - frequently used operators
 date: 2022-11-04
 tags: js powerseq
-published: false
+published: true
+series: programming-with-sequences
 ---
+
+{%- include /_posts/programming-with-sequences-series-toc.md -%}
 
 ## Introduction
 
@@ -340,8 +343,8 @@ var groupByCompany = groupby(products, (p) =>
     : "other"
 );
 
-for (var group of groupByCompany) {
-  console.log(group.key, "->", [...group]);
+for (var [key, values] of groupByCompany) {
+  console.log(key, "->", values);
 }
 ```
 
@@ -351,8 +354,8 @@ Sometimes, we need to group items and then perform aggregations such as `count`,
 var productsWithTheSameNames = pipe(
   products,
   groupby((p) => p.name),
-  filter((gr) => count(gr) > 1),
-  map((gr) => gr.key)
+  filter(([key, values]) => values.length > 1),
+  map(([key, values]) => key)
 );
 ```
 

@@ -4,7 +4,10 @@ title: Programming with sequences part 4 - real world problems
 date: 2022-11-14
 tags: js powerseq
 published: false
+series: programming-with-sequences
 ---
+
+{%- include /_posts/programming-with-sequences-series-toc.md -%}
 
 ## Introduction
 
@@ -135,8 +138,7 @@ function formatColumns(layout: string[][], answersObj: Results) {
     map((row) =>
       pipe(
         row,
-        map((id) => answersObj[id]),
-        filter((a) => !!a),
+        filtermap((id) => answersObj[id]),
         map(({ label, value }) => ({ text: `${label}: ${value}` })),
         toarray()
       )
@@ -148,7 +150,7 @@ function formatColumns(layout: string[][], answersObj: Results) {
 }
 ```
 
-The great thing about this code is that we use very basic operators like `map` and `filter`, and the final result is straightforward and practical.
+The great thing about this code is that we use very basic operators like `map` and `filter`, and the final result is straightforward and practical. `filtermap` operator combines `map` and `filter` together.
 
 ## Summary
 

@@ -3,7 +3,10 @@ layout: post
 title: Programming with sequences part 1 - introduction to powerseq
 date: 2022-11-02
 tags: js powerseq
+series: programming-with-sequences
 ---
+
+{%- include /_posts/programming-with-sequences-series-toc.md -%}
 
 ## Introduction
 

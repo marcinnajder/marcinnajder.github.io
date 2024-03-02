@@ -4,7 +4,10 @@ title: Programming with sequences part 3 - leetcode problems
 date: 2022-11-12
 tags: js powerseq
 published: false
+series: programming-with-sequences
 ---
+
+{%- include /_posts/programming-with-sequences-series-toc.md -%}
 
 ## Introduction
 
@@ -101,7 +104,7 @@ We introduced two new operators. The `findIndex` operator works almost the same 
 In this example, the function takes two strings as input and returns `true` if the first string is a subsequence of the second string. For example, the `"abc"` string is a subsequence of `"ahbgdc"` because even if we omit a few characters in `"ahbgdc"`, we can still find `"abc"` characters in that order. However, `"axc"` is not a subsequence of the `"ahbgdc"` string because the `"x"` character can not be found in `"ahbgdc"`.
 
 ```javascript
-var { pipe, scan, every, find, range } = require("powerseq");
+var { pipe, scan, every, find, range, skip } = require("powerseq");
 
 function isSubsequence(s, t) {
   return pipe(
@@ -110,6 +113,7 @@ function isSubsequence(s, t) {
       (i, c) => find(range(i + 1, t.length - (i + 1)), (j) => t[j] === c) ?? -1,
       -1
     ),
+    skip(1),
     every((i) => i !== -1)
   );
 }
@@ -120,9 +124,9 @@ isSubsequence("axc", "ahbgdc"); // -> false
 
 The `scan` operator is very powerful, as it enables the implementation of more advanced scenarios. The powerseq library provides a `reduce` operator that works in the same manner as the built-in `reduce` method from the `Array` type. The `scan` operator is similar to `reduce`. If we execute `reduce(range(1, 3), (prev, curr) => prev + curr, 0)` the value `6` will be returned: - The first time the lambda function is called with `prev=0` and `curr=1`, resulting in `0 + 1 = 1`. - The second time the lambda function is called with `prev=1` and `curr=2`, resulting in `1 + 2 = 3`. - Finally, the last call has `prev=3` and `curr=3`, returning `3 + 3 = 6`.
 
-If we execute the same code but with the `scan` operator, like so: `scan(range(1, 3), (prev, curr) => prev + curr, 0)`, the sequence `1, 2, 6` will be retuned. The `reduce` operator is eager, meaning it executes immediately and returns the final result. In contrast, the `scan` operator is lazy. It returns a lazy sequence of intermediate values up to the final result. The consumer of the sequence determines how many items should be produced or when to stop processing.
+If we execute the same code but with the `scan` operator, like so: `scan(range(1, 3), (prev, curr) => prev + curr, 0)`, the sequence `0, 1, 2, 6` will be retuned. The `reduce` operator is eager, meaning it executes immediately and returns the final result. In contrast, the `scan` operator is lazy. It returns a lazy sequence of intermediate values up to the final result. The consumer of the sequence determines how many items should be produced or when to stop processing.
 
-Let's try to analyse what exactly happens once we execute `isSubsequence("abc", "ahbgdc")`. The type of the `s` parameter is a string, and we can think of a string type as a sequence of characters. We call the `scan` operator, passing a string `s` as a parameter and initialising it with the value `-1`. The lambda function takes two parameters: `c`, which is a string representing the next character from the `s` string, and `i`, which is the aggregated value (starting at `-1`). The goal of the lambda function is to find the first index of the current `c` character in string `t` (the second parameter of the `isSubsequence` function). The trick here is to not search from the beginning every time, but from the index of the previously found character. The aggregated value is used precisely for that reason. To gain a better understanding of the entire process, let's imagine that we have replaced the `every` operator with `toarray` in the code above. After making these changes, the execution of `isSubsequence("abc", "ahbgdc")` would return `[0, 2, 5]`, but the execution of `isSubsequence("axc", "ahbgdc")` would return `[0, -1, 5]`. The value `-1` would be returned because the `x` character does not exist in the string `"ahbgdc"`. The `every` operator pulls next indexes from the sequence until the first value `-1` is found or until all items have been processed.
+Let's try to analyse what exactly happens once we execute `isSubsequence("abc", "ahbgdc")`. The type of the `s` parameter is a string, and we can think of a string type as a sequence of characters. We call the `scan` operator, passing a string `s` as a parameter and initialising it with the value `-1`. The lambda function takes two parameters: `c`, which is a string representing the next character from the `s` string, and `i`, which is the aggregated value (starting at `-1`). The goal of the lambda function is to find the first index of the current `c` character in string `t` (the second parameter of the `isSubsequence` function). The trick here is to not search from the beginning every time, but from the index of the previously found character. The aggregated value is used precisely for that reason. To gain a better understanding of the entire process, let's imagine that we have replaced the `every` operator with `toarray` in the code above. After making these changes, the execution of `isSubsequence("abc", "ahbgdc")` would return `[-1, 0, 2, 5]`, but the execution of `isSubsequence("axc", "ahbgdc")` would return `[-1, 0, -1, 5]`. We skip first number `-1` using `skip` operator. The value `-1` would be returned because the `x` character does not exist in the string `"ahbgdc"`. The `every` operator pulls next indexes from the sequence until the first value `-1` is found or until all items have been processed.
 
 There is even simpler implementation of `isSubsequence` function:
 
@@ -250,7 +254,7 @@ This implementation perfectly showcases the power of declarative programming. A 
 - Each subsequent row will have the following shape: `[1, ...map(pairwise(prev), ([x, y]) => x + y), 1]`.
 - Take only the first `rowNumber` rows.
 
-The `pairwise` operator converts a sequence of items into a sequence of overlapping pairs. For example, `pairwise([1, 5, 10, 15])` returns `[ [1, 5], [5, 10], [10, 15] ]`. We could achieve the same effect using the powerseq operator called `buffer`. However, we implemented `pairwise` ourselves, which is a simplified and more specific version of `buffer`. We did this to remind ourselves that we can always write our own operators.
+The `pairwise` operator converts a sequence of items into a sequence of overlapping pairs. For example, `pairwise([1, 5, 10, 15])` returns `[ [1, 5], [5, 10], [10, 15] ]`. We could achieve the same effect using the powerseq operator called `buffer`. However, we can implement `pairwise` ourselves, which is a simplified and more specific version of `buffer`. We can do this to remind ourselves that we can always write our own operators.
 
 ```javascript
 function* pairwise(items) {
