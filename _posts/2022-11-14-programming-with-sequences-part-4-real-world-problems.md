@@ -7,7 +7,7 @@ published: false
 series: programming-with-sequences
 ---
 
-{%- include /_posts/programming-with-sequences-series-toc.md -%}
+{%- include /_posts/series-toc.md series-name="programming-with-sequences" -%}
 
 ## Introduction
 
