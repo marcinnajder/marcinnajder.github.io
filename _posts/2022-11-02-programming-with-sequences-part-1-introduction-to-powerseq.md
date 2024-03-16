@@ -328,3 +328,5 @@ Let's recap what we have learned:
 - Finally, [powerseq](https://github.com/marcinnajder/powerseq) is a set of operators working with lazy sequences, the API is based on [LINQ](https://en.wikipedia.org/wiki/Language_Integrated_Query) which is based on functional programming like Haskell and OCaml. It is no coincidence that these operators are so powerful, they are "standing on the shoulders of giants".
 
 In the next articles, we will take a closer look at these new operators and use them to solve real-world problems using a declarative style of programming.
+
+[Source code](https://github.com/marcinnajder/misc/tree/master/2022_09_19_programming_with_sequences)

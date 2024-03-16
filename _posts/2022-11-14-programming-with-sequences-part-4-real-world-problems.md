@@ -3,7 +3,7 @@ layout: post
 title: Programming with sequences part 4 - real world problems
 date: 2022-11-14
 tags: js powerseq
-published: false
+published: true
 series: programming-with-sequences
 ---
 
@@ -155,3 +155,5 @@ The great thing about this code is that we use very basic operators like `map` a
 ## Summary
 
 I hope you have learned something new throughout the entire series. The functional programming style changes the way we approach problems. Thanks to the lazy evaluation of sequences, our solutions become more readable, reusable, and performant at the same time. I use powerseq every day at work. I really hope that some day all sequence operators will be available [in the JavaScript API "out of the box"](https://twitter.com/rauschma/status/1567865231983919115).
+
+[Source code](https://github.com/marcinnajder/misc/tree/master/2022_07_22_code_snippets/TypesScript/seq)

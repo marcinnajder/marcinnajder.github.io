@@ -374,3 +374,5 @@ for (var p of concat(mongoProducts, externalSystemProducts)) {
 ## Summary
 
 To clarify, we don't need to implement the operators presented above ourselves. The powerseq library provides all of them and even more, around 70 in total. I just wanted to demonstrate how simple they are. We can always read their source code when something is not clear or write our own when it's necessary. This particular library is not even important, there are many similar ones available. It's all about mindset and observation that identical code patterns are often reinvented repeatedly. Furthermore, the programming language is not so important, most languages offer constructs that enable us to write in this manner. Give it a try, it can make a significant difference. In the upcoming parts of the series, we will attempt to solve real tasks using powerseq while introducing new operators along the way.
+
+[Source code](https://github.com/marcinnajder/misc/tree/master/2022_09_19_programming_with_sequences)
