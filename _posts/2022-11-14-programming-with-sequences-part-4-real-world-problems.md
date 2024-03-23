@@ -59,7 +59,7 @@ function traverse(elements: Element[]): Iterable<Element> {
 }
 ```
 
-The `traverse` function converts the tree structure into a flat sequence of elements by utilising the `flatmap` and `concat` operators from the powerseq library, along with recursive calls. This function is lazy, meaning it serves as a blueprint for the process of traversing the tree. There is no requirement to traverse the entire structure. For example, in the first endpoint, our objective is to find the first element of a specified type, `type`.
+The `traverse` function converts the tree structure into a flat sequence of elements by using the `flatmap` and `concat` operators from the powerseq library, along with recursive calls. This function is lazy, meaning it serves as a blueprint for the process of traversing the tree. There is no requirement to traverse the entire structure. For example, in the first endpoint, our objective is to find the first element of a specified type, `type`.
 
 ```javascript
 function findElementOfType(elements: Element[], elementType: string) {
@@ -85,7 +85,7 @@ function getUniqueElementTypes(element: Element) {
 
 ## Generating PDF file
 
-[pdfmake](http://pdfmake.org/#/) is an excellent library for generating PDF files. It is written entirely in JavaScript, so it can be run on the client side in the browser or on the server side using node.js. We send the JS object describing the file content to the pdfmake and it returns back the binary data of PDF. You can experiment with the structure of the JavaScript object in the [pdfmake playground](http://pdfmake.org/playground.html).
+[pdfmake](http://pdfmake.org/#/) is an excellent library for generating PDF files. It is written entirely in JavaScript, so it can be run on the client side in the browser or on the server side using node.js. We send the JS object describing the file content to the pdfmake and it returns the binary data of PDF. You can experiment with the structure of the JavaScript object in the [pdfmake playground](http://pdfmake.org/playground.html).
 
 Let's imagine we're building an application where users fill out surveys, and the results are stored in a database. We can export or print the results as a PDF file later. A simplified data model for the survey results might look like this:
 
@@ -154,6 +154,6 @@ The great thing about this code is that we use very basic operators like `map` a
 
 ## Summary
 
-I hope you have learned something new throughout the entire series. The functional programming style changes the way we approach problems. Thanks to the lazy evaluation of sequences, our solutions become more readable, reusable, and performant at the same time. I use powerseq every day at work. I really hope that some day all sequence operators will be available [in the JavaScript API "out of the box"](https://twitter.com/rauschma/status/1567865231983919115).
+I hope you have learned something new throughout the entire series. The functional programming style changes the way we approach problems. Thanks to the lazy evaluation of sequences, our solutions become more readable, reusable, and performant at the same time. I use powerseq every day at work. I hope that someday all sequence operators will be available [in the JavaScript API "out of the box"](https://twitter.com/rauschma/status/1567865231983919115).
 
 [Source code](https://github.com/marcinnajder/misc/tree/master/2022_07_22_code_snippets/TypesScript/seq)
