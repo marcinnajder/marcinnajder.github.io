@@ -6,7 +6,7 @@ title: about
 
 #### About me
 
-Hi, I am a software developer/architect and trainer working with .Net and JS ecosystems, I am also fun of functional programming. [Here](http://mnajder.blogspot.com/) you can find my old blog (2008-2012).
+Hi, I am a software developer/architect and trainer working with .Net and JS ecosystems, I am also fan of functional programming. [Here](http://mnajder.blogspot.com/) you can find my old blog (2008-2012).
 
 #### Projects
 
