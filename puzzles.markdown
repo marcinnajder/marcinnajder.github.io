@@ -23,6 +23,7 @@ title: puzzles
  - [14 rocks](https://adventofcode.com/2023/day/14) - [Kotlin](https://github.com/marcinnajder/misc/tree/master/2023_10_03_advent_of_code_in_kotlin/AdventOfCode/src/main/kotlin/adventOfCode2023/day14_rocks.kt)
  - [15 lens](https://adventofcode.com/2023/day/15) - [Kotlin](https://github.com/marcinnajder/misc/tree/master/2023_10_03_advent_of_code_in_kotlin/AdventOfCode/src/main/kotlin/adventOfCode2023/day15_lens.kt)
  - [16 splitters](https://adventofcode.com/2023/day/16) - [Kotlin](https://github.com/marcinnajder/misc/tree/master/2023_10_03_advent_of_code_in_kotlin/AdventOfCode/src/main/kotlin/adventOfCode2023/day16_splitters.kt)
+ - [17 graph](https://adventofcode.com/2023/day/17) - [Kotlin](https://github.com/marcinnajder/misc/tree/master/2023_10_03_advent_of_code_in_kotlin/AdventOfCode/src/main/kotlin/adventOfCode2023/day17_graph.kt)
 
 #### Advent Of Code 2022
 
