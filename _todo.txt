@@ -1,3 +1,11 @@
+kolejne wpisy
+- najlepiej zeknac sobie po wbitkach do repo "misc" kiedy i czym sie zamowalem, kilka przykladowych tematow
+- ...
+- https://github.com/marcinnajder/misc/blob/master/2022_07_22_code_snippets/TypesScript/seq/lazyList.md
+- https://github.com/marcinnajder/misc/blob/master/2022_07_22_code_snippets/TypesScript/seq/iterVsObs.md
+
+
+
 - tags
 - GA
 
