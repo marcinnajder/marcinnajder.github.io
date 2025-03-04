@@ -5,6 +5,26 @@ title: puzzles
 ---
 
 
+#### Advent Of Code 2024
+
+ - [01 distances](https://adventofcode.com/2024/day/1) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day01_distances/puzzle.go)
+ - [02 reports](https://adventofcode.com/2024/day/2) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day02_reports/puzzle.go)
+ - [03 instructions](https://adventofcode.com/2024/day/3) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day03_instructions/puzzle.go)
+ - [04 xmas](https://adventofcode.com/2024/day/4) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day04_xmas/puzzle.go)
+ - [05 ordering](https://adventofcode.com/2024/day/5) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day05_ordering/puzzle.go)
+ - [06 routes](https://adventofcode.com/2024/day/6) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day06_routes/puzzle.go)
+ - [07 equations](https://adventofcode.com/2024/day/7) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day07_equations/puzzle.go)
+ - [08 antennas](https://adventofcode.com/2024/day/8) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day08_antennas/puzzle.go)
+ - [09 compacting](https://adventofcode.com/2024/day/9) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day09_compacting/puzzle.go)
+ - [10 trails](https://adventofcode.com/2024/day/10) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day10_trails/puzzle.go)
+ - [11 blinks](https://adventofcode.com/2024/day/11) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day11_blinks/puzzle.go)
+ - [12 regions](https://adventofcode.com/2024/day/12) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day12_regions/puzzle.go)
+ - [13 combinations](https://adventofcode.com/2024/day/13) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day13_combinations/puzzle.go)
+ - [14 robots](https://adventofcode.com/2024/day/14) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day14_robots/puzzle.go)
+ - [15 boxes](https://adventofcode.com/2024/day/15) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day15_boxes/puzzle.go)
+ - [16 maze](https://adventofcode.com/2024/day/16) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day16_maze/puzzle.go)
+ - [17 computer](https://adventofcode.com/2024/day/17) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day17_computer/puzzle.go)
+
 #### Advent Of Code 2023
 
  - [01 calibration](https://adventofcode.com/2023/day/1) - [Kotlin](https://github.com/marcinnajder/misc/tree/master/2023_10_03_advent_of_code_in_kotlin/AdventOfCode/src/main/kotlin/adventOfCode2023/day01_calibration.kt)
@@ -62,7 +82,7 @@ title: puzzles
  - [12 paths](https://adventofcode.com/2021/day/12) - [F#](https://github.com/marcinnajder/misc/tree/master/2021_12_24_advent_of_code_in_fsharp/AdventOfCode/AdventOfCode2021/Day12_paths.fs)
  - [13 origami](https://adventofcode.com/2021/day/13) - [F#](https://github.com/marcinnajder/misc/tree/master/2021_12_24_advent_of_code_in_fsharp/AdventOfCode/AdventOfCode2021/Day13_origami.fs)
  - [14 mapping](https://adventofcode.com/2021/day/14) - [F#](https://github.com/marcinnajder/misc/tree/master/2021_12_24_advent_of_code_in_fsharp/AdventOfCode/AdventOfCode2021/Day14_mapping.fs)
- - [15 graph](https://adventofcode.com/2021/day/15) - [F#](https://github.com/marcinnajder/misc/tree/master/2021_12_24_advent_of_code_in_fsharp/AdventOfCode/AdventOfCode2021/Day15_graph.fs)
+ - [15 graph](https://adventofcode.com/2021/day/15) - [F#](https://github.com/marcinnajder/misc/tree/master/2021_12_24_advent_of_code_in_fsharp/AdventOfCode/AdventOfCode2021/Day15_graph.fs), [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2021/day15_graph/puzzle.go)
  - [16 packets](https://adventofcode.com/2021/day/16) - [F#](https://github.com/marcinnajder/misc/tree/master/2021_12_24_advent_of_code_in_fsharp/AdventOfCode/AdventOfCode2021/Day16_packets.fs), [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2021/Day16.cs)
  - [17 shot](https://adventofcode.com/2021/day/17) - [F#](https://github.com/marcinnajder/misc/tree/master/2021_12_24_advent_of_code_in_fsharp/AdventOfCode/AdventOfCode2021/Day17_shot.fs), [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2021/Day17.cs)
  - [18 tree](https://adventofcode.com/2021/day/18) - [F#](https://github.com/marcinnajder/misc/tree/master/2021_12_24_advent_of_code_in_fsharp/AdventOfCode/AdventOfCode2021/Day18_tree.fs)
