@@ -24,6 +24,8 @@ title: puzzles
  - [15 boxes](https://adventofcode.com/2024/day/15) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day15_boxes/puzzle.go)
  - [16 maze](https://adventofcode.com/2024/day/16) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day16_maze/puzzle.go)
  - [17 computer](https://adventofcode.com/2024/day/17) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day17_computer/puzzle.go)
+ - [18 path](https://adventofcode.com/2024/day/18) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day18_path/puzzle.go)
+ - [19 towels](https://adventofcode.com/2024/day/19) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day19_towels/puzzle.go)
 
 #### Advent Of Code 2023
 
