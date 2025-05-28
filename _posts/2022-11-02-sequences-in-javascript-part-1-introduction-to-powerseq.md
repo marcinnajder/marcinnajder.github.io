@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Programming with sequences part 1 - introduction to powerseq
+title: Sequences in JavaScript part 1- introduction to powerseq [TypeScript]
 date: 2022-11-02
 tags: js powerseq
-series: programming-with-sequences
+series: sequences
 ---
 
-{%- include /_posts/series-toc.md series-name="programming-with-sequences" -%}
+{%- include /_posts/series-toc.md series-name="sequences" -%}
 
 ## Introduction
 

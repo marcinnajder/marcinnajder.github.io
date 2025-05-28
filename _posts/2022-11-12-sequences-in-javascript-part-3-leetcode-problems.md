@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Programming with sequences part 3 - leetcode problems
+title: Sequences in JavaScript part 3 - leetcode problems [TypeScript]
 date: 2022-11-12
 tags: js powerseq
 published: true
-series: programming-with-sequences
+series: sequences
 ---
 
-{%- include /_posts/series-toc.md series-name="programming-with-sequences" -%}
+{%- include /_posts/series-toc.md series-name="sequences" -%}
 
 ## Introduction
 

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Programming with sequences part 2 - frequently used operators
+title: Sequences in JavaScript part 2 - frequently used operators [TypeScript]
 date: 2022-11-04
 tags: js powerseq
 published: true
-series: programming-with-sequences
+series: sequences
 ---
 
-{%- include /_posts/series-toc.md series-name="programming-with-sequences" -%}
+{%- include /_posts/series-toc.md series-name="sequences" -%}
 
 ## Introduction
 

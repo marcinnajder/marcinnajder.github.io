@@ -1,19 +1,19 @@
 ---
 layout: post
-title: Programming with sequences part 4 - real world problems
+title: Sequences in JavaScript part 4 - real world problems [TypeScript]
 date: 2022-11-14
 tags: js powerseq
 published: true
-series: programming-with-sequences
+series: sequences
 ---
 
-{%- include /_posts/series-toc.md series-name="programming-with-sequences" -%}
+{%- include /_posts/series-toc.md series-name="sequences" -%}
 
 ## Introduction
 
 In this part of the series, we will implement two problems that I had to implement myself in production code. Some of you may argue that puzzles from [leetcode](https://leetcode.com/) or [advent of code](https://adventofcode.com/) are artificial and have little relevance to the day-to-day work of programmers. In some sense, that's true. Clients don't often request a new implementation of [Pascal's Triangle](https://en.wikipedia.org/wiki/Pascal%27s_triangle). On the other hand, almost every day, we retrieve data from the database into memory, process it, and return it to the client from the RESTful service. We use the same code constructs to solve both kinds of problems.
 
-## Traversing the three structure
+## Traversing the tree structure
 
 Let's say we have a tree structure stored in the database. It's not excessively large, so we can load the entire structure into memory at once. Files and folders serve as a suitable representation for such a structure. We will be using the TypeScript language to describe the data model we'll be working with.
 

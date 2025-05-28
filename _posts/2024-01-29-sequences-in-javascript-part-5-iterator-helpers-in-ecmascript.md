@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Programming with sequences part 5 - iterator helpers in ECMAScript
+title: Sequences in JavaScript part 5 - iterator helpers in ECMAScript [TypeScript]
 date: 2024-01-29
 tags: js powerseq
 published: true
-series: programming-with-sequences
+series: sequences
 ---
 
-{%- include /_posts/series-toc.md series-name="programming-with-sequences" -%}
+{%- include /_posts/series-toc.md series-name="sequences" -%}
 
 ## Introduction
 

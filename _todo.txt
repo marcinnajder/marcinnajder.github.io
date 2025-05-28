@@ -1,3 +1,11 @@
+
+bundle exec jekyll serve
+
+<- tak sie uruchamia lokalnie :)
+
+
+
+
 kolejne wpisy
 - najlepiej zeknac sobie po wbitkach do repo "misc" kiedy i czym sie zamowalem, kilka przykladowych tematow
 - ...
