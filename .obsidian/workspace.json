@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-29-iterable-vs-observable.md",
+                "file": "_posts/2012-08-28-js-interactive-in-vs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-08-29-iterable-vs-observable"
+              "title": "2012-08-28-js-interactive-in-vs"
+            }
+          },
+          {
+            "id": "c91eb3e4d2480f1a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/images/jsrepl.png"
+              },
+              "icon": "lucide-image",
+              "title": "jsrepl"
             }
           }
         ]
@@ -78,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 497.5
+    "width": 548.5
   },
   "right": {
     "id": "88aa91131d8f6989",
@@ -171,41 +183,51 @@
   },
   "active": "f11e842638ffd5f9",
   "lastOpenFiles": [
-    "_posts/2023-03-14-lisp-for-javascript-developer-part-3-data-structures.md",
-    "_posts/2024-08-29-iterable-vs-observable.md",
-    "_posts/2025-02-16-sequences-in-go-part-2-introduction-to-gopowerseq.md",
-    "_posts/2024-01-29-sequences-in-javascript-part-5-iterator-helpers-in-ecmascript.md",
-    "_site/2024/08/29/iterable-vs-observable.html",
-    "_site/2024/08/29",
-    "_site/2024/08",
-    "_site/2024/12/01/iterable-vs-observable.html",
-    "_site/2024/12/01/iterable.html",
-    "_posts/2024-08-29-iterable.md",
-    "_site/2024/12/01/sequences-in-go-part-1-introduction-to-iterators-copy.html",
-    "_posts/2024-12-01-sequences-in-go-part-1-introduction-to-iterators copy.md",
-    "_posts/2023-02-28-lisp-for-javascript-developer-part-1-fundamentals.md",
-    "_posts/2023-03-07-lisp-for-javascript-developer-part-2-built-in-functions.md",
-    "_site/2023/03/07/lisp-for-javascript-developer-part-2-built-in-functions.html",
-    "_posts/2023-04-04-lisp-for-javascript-developer-part-6-aoc-puzzle.md",
-    "_posts/2023-03-28-lisp-for-javascript-developer-part-5-recursion.md",
-    "_posts/2023-03-21-lisp-for-javascript-developer-part-4-macros.md",
-    "_site/2023/02/28/lisp-for-javascript-developer-part-1-fundamentals.html",
-    "_site/2023/04/04/lisp-for-javascript-developer-part-6-aoc-puzzle.html",
-    "2023-03-14.md",
-    "_site/2023-03-14.md",
-    "_site/2023-03-14.html",
+    "_site/assets/images/jsrepl3.png",
+    "assets/images/jsrepl3.png",
+    "_site/assets/images/image_thumb7.png",
+    "assets/images/image_thumb7.png",
+    "_site/assets/images/jsrepl2.png",
+    "assets/images/jsrepl2.png",
+    "assets/images/jsrepl.png",
+    "_posts/2012-08-28-js-interactive-in-vs.md",
+    "_posts/2012-05-06-running-ria-services-on-the-top-of-raven-db.md",
+    "_site/assets/images/jsrepl.png",
+    "_site/2012/08/28/js-interactive-in-vs.html",
+    "_site/2012/08/28/running-ria-services-on-the-top-of-raven-db-1.html",
+    "_site/2012/08/28",
+    "_site/2012/08/06/running-ria-services-on-the-top-of-raven-db-1.html",
+    "_site/2012/08/06",
+    "_site/2012/08",
+    "_site/2012/05/06/running-ria-services-on-the-top-of-raven-db-1.html",
+    "_site/assets/images/raven2.png",
+    "assets/images/raven2.png",
+    "_posts/2011-08-22-design-time-support-for-caliburn-micro.md",
+    "_posts/2011-09-05-when-the-reactive-framework-meets-fsharp3.md",
+    "_site/assets/images/raven1.png",
+    "_site/2012/05/06/running-ria-services-on-the-top-of-raven-db.html",
+    "_site/2012/05/06",
+    "_site/2012/05/22/running-ria-services-on-the-top-of-raven-db.html",
+    "_posts/2011-08-15-custom-design-time-attributes.md",
+    "_posts/2011-05-05-simplifying-xna-game-development.md",
+    "_posts/2010-10-25-debugging-rx-and-linq.md",
+    "_posts/2011-01-21-async-ctp-on-wp7.md",
+    "_posts/2010-03-08-rxsandboxv1.md",
+    "_posts/2009-11-26-rxsandbox.md",
+    "_posts/2011-09-05-programming-with-sharp-asynchronous-sequences.md",
+    "_posts/2009-11-12-linq-to-icollectionview.md",
+    "_posts/2009-09-07-drag-and-drop-with-rx.md",
+    "_posts/2009-09-14-incremental-search-with-rx.md",
+    "_posts/2009-08-30-inside-linq-queries.md",
+    "_posts/2009-08-15-generating-observable-events-with-t4-template-for-rx.md",
+    "_posts/2008-09-25-xmlcontentloader.md",
+    "_posts/2008-11-10-expression-trees-instead-of-strings-part-2-workflowarguments.md",
+    "_posts/2008-11-08-expression-trees-instead-of-strings-part-1-reflectionhelper.md",
+    "_posts/2022-11-04-sequences-in-javascript-part-2-frequently-used-operators.md",
     "_posts/2025-04-16-sequences-in-go-part-3-real-world-problems.md",
-    "_posts/2023-03-28-lisp-for-javascript-developer-part-6-program.md",
-    "_posts/2023-03-28-lisp-for-javascript-developer-part-5-program.md",
-    "_posts/2023-03-28-lisp-for-javascript-developer-part-5-recursionn.md",
-    "_posts/2023-03-21-lisp-for-javascript-developer-part-4-data-structures.md",
-    "_posts/2023-03-28-lisp-for-javascript-developer-part-5-macros copy.md",
-    "_posts/2023-03-28-lisp-for-javascript-developer-part-5-macros.md",
-    "_posts/2023-03-21-lisp-for-javascript-developer-part-3-data-structures copy.md",
-    "_posts/2023-03-21-lisp-for-javascript-developer-part-3-data-structures.md",
-    "_posts/2023-03-14-lisp-for-javascript-developer-part-3-data-structures copy.md",
+    "_posts/2011-09-05-programming-with-sharp-asynchronous-sequences copy.md",
     "_posts/2022-11-02-sequences-in-javascript-part-1-introduction-to-powerseq.md",
-    "_posts/2022-11-12-sequences-in-javascript-part-3-leetcode-problems.md",
-    "_includes/_posts/series-toc.md"
+    "_posts/2023-04-04-lisp-for-javascript-developer-part-6-aoc-puzzle.md",
+    "_posts/2024-08-29-iterable-vs-observable.md"
   ]
 }
