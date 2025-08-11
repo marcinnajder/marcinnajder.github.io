@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "9288c625456c0a51",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6c7648ba822a8d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f11e842638ffd5f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-29-iterable-vs-observable.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-08-29-iterable-vs-observable"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d8cf93f85a00475b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b36397581e985ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce742a97e18a9014",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "82cc5e2d91c952ce",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1eca9c51b676ac53",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 497.5
+  },
+  "right": {
+    "id": "88aa91131d8f6989",
+    "type": "split",
+    "children": [
+      {
+        "id": "3deb6a8de6362c0f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "722f122991448351",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2023-03-07-lisp-for-javascript-developer-part-2-functions.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2023-03-07-lisp-for-javascript-developer-part-2-functions"
+            }
+          },
+          {
+            "id": "583a737fb0160b4e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/2023-03-07-lisp-for-javascript-developer-part-2-functions.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2023-03-07-lisp-for-javascript-developer-part-2-functions"
+            }
+          },
+          {
+            "id": "7a0f2a8ac70d7d4b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f15e31cf15889df8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/2025-02-16-sequences-in-go-part-2-introduction-to-gopowerseq.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2025-02-16-sequences-in-go-part-2-introduction-to-gopowerseq"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f11e842638ffd5f9",
+  "lastOpenFiles": [
+    "_posts/2023-03-14-lisp-for-javascript-developer-part-3-data-structures.md",
+    "_posts/2024-08-29-iterable-vs-observable.md",
+    "_posts/2025-02-16-sequences-in-go-part-2-introduction-to-gopowerseq.md",
+    "_posts/2024-01-29-sequences-in-javascript-part-5-iterator-helpers-in-ecmascript.md",
+    "_site/2024/08/29/iterable-vs-observable.html",
+    "_site/2024/08/29",
+    "_site/2024/08",
+    "_site/2024/12/01/iterable-vs-observable.html",
+    "_site/2024/12/01/iterable.html",
+    "_posts/2024-08-29-iterable.md",
+    "_site/2024/12/01/sequences-in-go-part-1-introduction-to-iterators-copy.html",
+    "_posts/2024-12-01-sequences-in-go-part-1-introduction-to-iterators copy.md",
+    "_posts/2023-02-28-lisp-for-javascript-developer-part-1-fundamentals.md",
+    "_posts/2023-03-07-lisp-for-javascript-developer-part-2-built-in-functions.md",
+    "_site/2023/03/07/lisp-for-javascript-developer-part-2-built-in-functions.html",
+    "_posts/2023-04-04-lisp-for-javascript-developer-part-6-aoc-puzzle.md",
+    "_posts/2023-03-28-lisp-for-javascript-developer-part-5-recursion.md",
+    "_posts/2023-03-21-lisp-for-javascript-developer-part-4-macros.md",
+    "_site/2023/02/28/lisp-for-javascript-developer-part-1-fundamentals.html",
+    "_site/2023/04/04/lisp-for-javascript-developer-part-6-aoc-puzzle.html",
+    "2023-03-14.md",
+    "_site/2023-03-14.md",
+    "_site/2023-03-14.html",
+    "_posts/2025-04-16-sequences-in-go-part-3-real-world-problems.md",
+    "_posts/2023-03-28-lisp-for-javascript-developer-part-6-program.md",
+    "_posts/2023-03-28-lisp-for-javascript-developer-part-5-program.md",
+    "_posts/2023-03-28-lisp-for-javascript-developer-part-5-recursionn.md",
+    "_posts/2023-03-21-lisp-for-javascript-developer-part-4-data-structures.md",
+    "_posts/2023-03-28-lisp-for-javascript-developer-part-5-macros copy.md",
+    "_posts/2023-03-28-lisp-for-javascript-developer-part-5-macros.md",
+    "_posts/2023-03-21-lisp-for-javascript-developer-part-3-data-structures copy.md",
+    "_posts/2023-03-21-lisp-for-javascript-developer-part-3-data-structures.md",
+    "_posts/2023-03-14-lisp-for-javascript-developer-part-3-data-structures copy.md",
+    "_posts/2022-11-02-sequences-in-javascript-part-1-introduction-to-powerseq.md",
+    "_posts/2022-11-12-sequences-in-javascript-part-3-leetcode-problems.md",
+    "_includes/_posts/series-toc.md"
+  ]
+}
