@@ -4,33 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e6c7648ba822a8d0",
+        "id": "bba1813f5447a73a",
         "type": "tabs",
         "children": [
           {
-            "id": "f11e842638ffd5f9",
+            "id": "ef5770e445bbae8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2012-08-28-js-interactive-in-vs.md",
+                "file": "workshops/aspnet-core-web-apps-pl.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2012-08-28-js-interactive-in-vs"
-            }
-          },
-          {
-            "id": "c91eb3e4d2480f1a",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/images/jsrepl.png"
-              },
-              "icon": "lucide-image",
-              "title": "jsrepl"
+              "title": "aspnet-core-web-apps-pl"
             }
           }
         ]
@@ -46,19 +34,6 @@
         "id": "3b36397581e985ed",
         "type": "tabs",
         "children": [
-          {
-            "id": "ce742a97e18a9014",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
           {
             "id": "82cc5e2d91c952ce",
             "type": "leaf",
@@ -77,6 +52,19 @@
             }
           },
           {
+            "id": "ce742a97e18a9014",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
             "id": "1eca9c51b676ac53",
             "type": "leaf",
             "state": {
@@ -86,11 +74,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 548.5
+    "width": 348.5
   },
   "right": {
     "id": "88aa91131d8f6989",
@@ -181,8 +170,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f11e842638ffd5f9",
+  "active": "ef5770e445bbae8c",
   "lastOpenFiles": [
+    "workshops/aspnet-core-web-apps-en.md",
+    "workshops/aspnet-core-microservices-apps-pl.md",
+    "workshops/aspnet-core-microservices-apps-en.md",
+    "trainer.md",
+    "speaker.md",
+    "workshops/modern-csharp-pl.md",
+    "workshops/javascript-modern-pl.md",
+    "workshops/javascript-architecture-pl.md",
+    "workshops/dotnet-basics-pl.md",
+    "workshops/dotnet-basics-en.md",
+    "workshops/dotnet-advanced-pl.md",
+    "workshops/aspnet-core-web-apps-pl.md",
+    "workshops/modern-csharp-en.md",
+    "workshops/javascript-modern-en.md",
+    "workshops/javascript-architecture-en.md",
+    "workshops/dotnet-advanced-en.md",
+    "_site/workshops/javascript-architecture-en.html",
+    "_site/workshops/javascript-architecture-pl 1.html",
+    "_site/workshops/javascript-modern-en.html",
+    "_site/workshops/javascript-modern-pl 1.html",
+    "workshops/modern-csharp-pl 1.md",
+    "_site/workshops/modern-csharp-pl 1.html",
+    "_site/workshops/javascript-modern-pl.html",
+    "_site/workshops/javascript-architecture-pl.html",
+    "_site/workshops/aspnet-core-microservices-apps-en.html",
+    "_site/workshops/aspnet-core-microservices-apps-pl 1.html",
+    "_site/workshops/aspnet-core-microservices-apps-pl.html",
+    "aboutme.md",
+    "workshops/workshop-dotnet-basics.md",
+    "pages/workshop-dotnet-basics.md",
+    "projects.md",
+    "trainer copy.md",
+    "speaker copy.md",
+    "puzzles copy.md",
+    "pages/workshop1.md",
     "_site/assets/images/jsrepl3.png",
     "assets/images/jsrepl3.png",
     "_site/assets/images/image_thumb7.png",
@@ -190,44 +214,8 @@
     "_site/assets/images/jsrepl2.png",
     "assets/images/jsrepl2.png",
     "assets/images/jsrepl.png",
-    "_posts/2012-08-28-js-interactive-in-vs.md",
-    "_posts/2012-05-06-running-ria-services-on-the-top-of-raven-db.md",
     "_site/assets/images/jsrepl.png",
-    "_site/2012/08/28/js-interactive-in-vs.html",
-    "_site/2012/08/28/running-ria-services-on-the-top-of-raven-db-1.html",
-    "_site/2012/08/28",
-    "_site/2012/08/06/running-ria-services-on-the-top-of-raven-db-1.html",
-    "_site/2012/08/06",
-    "_site/2012/08",
-    "_site/2012/05/06/running-ria-services-on-the-top-of-raven-db-1.html",
     "_site/assets/images/raven2.png",
-    "assets/images/raven2.png",
-    "_posts/2011-08-22-design-time-support-for-caliburn-micro.md",
-    "_posts/2011-09-05-when-the-reactive-framework-meets-fsharp3.md",
-    "_site/assets/images/raven1.png",
-    "_site/2012/05/06/running-ria-services-on-the-top-of-raven-db.html",
-    "_site/2012/05/06",
-    "_site/2012/05/22/running-ria-services-on-the-top-of-raven-db.html",
-    "_posts/2011-08-15-custom-design-time-attributes.md",
-    "_posts/2011-05-05-simplifying-xna-game-development.md",
-    "_posts/2010-10-25-debugging-rx-and-linq.md",
-    "_posts/2011-01-21-async-ctp-on-wp7.md",
-    "_posts/2010-03-08-rxsandboxv1.md",
-    "_posts/2009-11-26-rxsandbox.md",
-    "_posts/2011-09-05-programming-with-sharp-asynchronous-sequences.md",
-    "_posts/2009-11-12-linq-to-icollectionview.md",
-    "_posts/2009-09-07-drag-and-drop-with-rx.md",
-    "_posts/2009-09-14-incremental-search-with-rx.md",
-    "_posts/2009-08-30-inside-linq-queries.md",
-    "_posts/2009-08-15-generating-observable-events-with-t4-template-for-rx.md",
-    "_posts/2008-09-25-xmlcontentloader.md",
-    "_posts/2008-11-10-expression-trees-instead-of-strings-part-2-workflowarguments.md",
-    "_posts/2008-11-08-expression-trees-instead-of-strings-part-1-reflectionhelper.md",
-    "_posts/2022-11-04-sequences-in-javascript-part-2-frequently-used-operators.md",
-    "_posts/2025-04-16-sequences-in-go-part-3-real-world-problems.md",
-    "_posts/2011-09-05-programming-with-sharp-asynchronous-sequences copy.md",
-    "_posts/2022-11-02-sequences-in-javascript-part-1-introduction-to-powerseq.md",
-    "_posts/2023-04-04-lisp-for-javascript-developer-part-6-aoc-puzzle.md",
-    "_posts/2024-08-29-iterable-vs-observable.md"
+    "assets/images/raven2.png"
   ]
 }
