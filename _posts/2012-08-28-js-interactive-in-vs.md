@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JavaScript Interactive in Visual Studio [JavaScript]
+title: JavaScript Interactive in Visual Studio [JS]
 date: 2012-08-28
 tags:
   - csharp

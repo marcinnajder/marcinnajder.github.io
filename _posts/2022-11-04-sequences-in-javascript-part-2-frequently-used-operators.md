@@ -1,8 +1,10 @@
 ---
 layout: post
-title: Sequences in JavaScript part 2 - frequently used operators [TypeScript]
+title: Sequences in JS part 2 - frequently used operators [TS]
 date: 2022-11-04
-tags: js powerseq
+tags:
+  - js
+  - powerseq
 published: true
 series: sequences
 ---

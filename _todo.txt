@@ -4,6 +4,33 @@ bundle exec jekyll serve
 <- tak sie uruchamia lokalnie :)
 
 
+MongoDB + AF https://github.com/marcinnajder/misc/commit/c72fe8d7bf7953fae92865fe0fb5e45dcc9c1130
+advanbces typing 1 - pick
+advanbces typing 2 - ensurePaths, ensurePatientProfile
+LList w C# 1
+LList w C# 1 LINQ
+LList w C# 2 + collection expression https://github.com/marcinnajder/misc/commit/7720d0faca87070c9e7224e271d51b2d677109ec
+https://github.com/marcinnajder/misc/blob/master/2022_07_22_code_snippets/TypesScript/seq/lazyList.md
+angular race condtions https://github.com/marcinnajder/misc/commit/d8639f690edb2e1d62cb0d87db187181260724b6
+angular cachiong interceptor https://github.com/marcinnajder/misc/commit/4a9c79bbc63265362bd8e1a8715b7f45b6ebf6c1
+y-combinator https://github.com/marcinnajder/misc/commit/6a25131574f8d765c323cdb8143cff57a3f1883e
+cos o kotlin ?
+F# solution summary https://github.com/marcinnajder/misc/commit/c620492613a38e8bad51775a16cfd043350315e4
+F# DI https://github.com/marcinnajder/misc/commit/fc25be332718abe19e95d3c27d37b386a14b45cb
+
+Monads
+Monads w C# https://github.com/marcinnajder/misc/commit/c72fe8d7bf7953fae92865fe0fb5e45dcc9c1130
+Monads add IO monad implementation based on rxjs https://github.com/marcinnajder/misc/commit/0cb2ae865b1a41fc97792caec2ac9a1993d46c7e
+_monad_do_notation_using_js_generators https://github.com/marcinnajder/misc/commit/16683530b1ed9a446c68387a5f7874a66ebab186
+MAL
+init commit :) May 7, 2018 https://github.com/marcinnajder/misc/commit/fbed3694e90c204b46950632464aff644e3198b3 
+- 2018_01_15_simple-way-of-defining-actions/README.md
+- 2018_04_09_countdown-problem-in-typescript/.vscode/launch.json 
+
+
+
+
+
 
 
 kolejne wpisy

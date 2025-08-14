@@ -1,8 +1,10 @@
 ---
 layout: post
-title: Sequences in JavaScript part 4 - real world problems [TypeScript]
+title: Sequences in JS part 4 - real world problems [TS]
 date: 2022-11-14
-tags: js powerseq
+tags:
+  - js
+  - powerseq
 published: true
 series: sequences
 ---

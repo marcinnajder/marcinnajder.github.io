@@ -1,8 +1,10 @@
 ---
 layout: post
-title: Sequences in JavaScript part 5 - iterator helpers in ECMAScript [TypeScript]
+title: Sequences in JS part 5 - iterator helpers in ECMAScript [TS]
 date: 2024-01-29
-tags: js powerseq
+tags:
+  - js
+  - powerseq
 published: true
 series: sequences
 ---

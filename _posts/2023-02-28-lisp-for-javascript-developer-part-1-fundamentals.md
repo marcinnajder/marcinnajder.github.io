@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lisp for JavaScript developer part 1 - fundamentals [JavaScript, Lisp]
+title: Lisp for JS developers part 1 - fundamentals [JS, Lisp]
 date: 2023-02-28
 tags:
   - js
@@ -95,7 +95,7 @@ add(1, 2);
 
 ## defn, variadic functions, comments
 
-It's too early to discuss macros in Lisp. Let's only say that we can also define a function in a special way using the `defn` symbol. It's like a shortcut, instead of `(def add (fn [a b] (+ a b)))` we can write `(defn add [a b] (+ a b))`. Similarly,  JavaScript functions can also be defined using the `function` keyword.
+It's too early to discuss macros in Lisp. Let's only say that we can also define a function in a special way using the `defn` symbol. It's like a shortcut, instead of `(def add (fn [a b] (+ a b)))` we can write `(defn add [a b] (+ a b))`. Similarly, JavaScript functions can also be defined using the `function` keyword.
 
 ```scheme
 (defn add [a b]

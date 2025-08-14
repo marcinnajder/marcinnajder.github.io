@@ -1,17 +1,18 @@
 ---
 layout: post
-title: Lisp for JavaScript developer part 4 - macros [JavaScript, Lisp]
+title: Lisp for JS developers part 4 - macros [JS, Lisp]
 date: 2023-03-21
-tags: js lisp
+tags:
+  - js
+  - lisp
 series: jslisp
 ---
 
 {%- include /_posts/series-toc.md series-name="jslisp" -%}
 
-## Introduction 
+## Introduction
 
 At the end of the previous article, we saw the simple query using the `filter` and `map` functions.
-
 
 ```scheme
 (map
@@ -44,7 +45,7 @@ In the example above, the destructuring feature of Clojure is used to extract pa
 
 #### ->> "thread-last" macro
 
-In the code below `->>` symbol looks like an execution of a regular function in Clojure, but it is a macro. The macro is like a function, but all parameters are put in quotes automatically. Instead of passing the evaluated value of a parameter known before starting the function execution, the whole data representation of the parameter is passed into the macro. Inside the macro, we have access to all parameters in their original shapes, and we can manipulate them by building a new Clojure expression. `->>` symbol is called "thread-last" macro, because it takes the first parameter and places it as the last parameter of the function call.  The best way to explain its behavior is to use a simple example, this piece of code `(->> 5 (mul 100) (inc 1)))` will be transformed into this `(inc 1 (mul 100 5))`.  Thanks to this macro, queries over collections of items using functions like `filter, map, ...` look very natural. The execution order is directly represented in code; first `filter` will be executed, then `map`. 
+In the code below `->>` symbol looks like an execution of a regular function in Clojure, but it is a macro. The macro is like a function, but all parameters are put in quotes automatically. Instead of passing the evaluated value of a parameter known before starting the function execution, the whole data representation of the parameter is passed into the macro. Inside the macro, we have access to all parameters in their original shapes, and we can manipulate them by building a new Clojure expression. `->>` symbol is called "thread-last" macro, because it takes the first parameter and places it as the last parameter of the function call. The best way to explain its behavior is to use a simple example, this piece of code `(->> 5 (mul 100) (inc 1)))` will be transformed into this `(inc 1 (mul 100 5))`. Thanks to this macro, queries over collections of items using functions like `filter, map, ...` look very natural. The execution order is directly represented in code; first `filter` will be executed, then `map`.
 
 ```scheme
 (->>
@@ -62,12 +63,15 @@ In the code below `->>` symbol looks like an execution of a regular function in 
 ```
 
 ```js
-into(vector(), map(x => x * 10, filter(oddp, list(1, 2, 3, 4, 5, 6))));
+into(
+  vector(),
+  map((x) => x * 10, filter(oddp, list(1, 2, 3, 4, 5, 6)))
+);
 pipe(
-    list(1, 2, 3, 4, 5, 6),
-    o => filter(oddp, o),
-    o => map(x => x * 10, o),
-    o => into(vector(), o)
+  list(1, 2, 3, 4, 5, 6),
+  (o) => filter(oddp, o),
+  (o) => map((x) => x * 10, o),
+  (o) => into(vector(), o)
 ); // => [ 10, 30, 50 ]
 ```
 
@@ -75,7 +79,7 @@ The built-in `macroexpand`function shows what is happening behind any macro by r
 
 #### -> "thread-first" macro
 
-In collection functions like `filter, map, ...`, the last argument is a collection. That was the reason we were using the "thread-last" macro. There is also the "thread-first" macro which sets the first argument. For instance, functions like `assoc` or `dissoc` take a map data structure as the first argument. 
+In collection functions like `filter, map, ...`, the last argument is a collection. That was the reason we were using the "thread-last" macro. There is also the "thread-first" macro which sets the first argument. For instance, functions like `assoc` or `dissoc` take a map data structure as the first argument.
 
 ```scheme
 (assoc (assoc {} :name "marcin") :age 123) ;; => {:name "marcin", :age 123}
@@ -97,13 +101,12 @@ In collection functions like `filter, map, ...`, the last argument is a collecti
 ```js
 assoc(assoc({}, "name", "marcin"), "age", 123);
 pipe(
-    {},
-    o => assoc(o, "name", "marcin"),
-    o => assoc(o, "age", 123)
+  {},
+  (o) => assoc(o, "name", "marcin"),
+  (o) => assoc(o, "age", 123)
 ); // => { age: 123, name: 'marcin' }
 ```
 
 #### Summary
 
 Quotations with macros are very powerful features heavily used in languages from the Lisp family. Other languages inspired by the same idea introduced similar elements. In 2008, C# 3.0 introduced LINQ (language integrated query) using [expression trees](https://learn.microsoft.com/en-us/dotnet/csharp/advanced-topics/expression-trees) internally, F# language has [code quotations](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/code-quotations). However, because of the Lisp syntax, the macro feature is natural and straightforward to implement.
-

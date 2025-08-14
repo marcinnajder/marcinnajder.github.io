@@ -1,8 +1,10 @@
 ---
 layout: post
-title: Sequences in JavaScript part 1- introduction to powerseq [TypeScript]
+title: Sequences in JS part 1- introduction to powerseq [TS]
 date: 2022-11-02
-tags: js powerseq
+tags:
+  - js
+  - powerseq
 series: sequences
 ---
 

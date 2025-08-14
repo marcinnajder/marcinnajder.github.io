@@ -1,25 +1,28 @@
 ---
 layout: post
-title: Lisp for JavaScript developer part 2 - built-in functions [JavaScript, Lisp]
+title: Lisp for JS developers part 2 - built-in functions [JS, Lisp]
 date: 2023-03-07
-tags: js lisp
+tags:
+  - js
+  - lisp
 series: jslisp
 ---
 
 {%- include /_posts/series-toc.md series-name="jslisp" -%}
 
-## Introduction 
+## Introduction
 
 We already know how to define functions using basic types like `string`, `boolean`, or `nil` in Lisp. The language's syntax is very different from other programming languages, but commonly used building blocks like variables, conditions, and loops are the same. One of the main features of functional programming is treating functions as values. We can pass them as arguments to the function or return them from the function. Functions that do that are also called "higher order functions", and in this part of the series, we will learn a few such functions. But first, let's start with the primitive built-in functions.
 
 ## Built-in functions
 
-In a "typical" programming language like JavaScript, we think in terms of built-in operators like `+, -, >, ==, &&, ||` and existing functions like `parseInt, console.log, JSON.parse, Math.max` included in the standard  library. In Lisp there is no difference between keywords, operators, and functions. They are all used in exactly the same way.
+In a "typical" programming language like JavaScript, we think in terms of built-in operators like `+, -, >, ==, &&, ||` and existing functions like `parseInt, console.log, JSON.parse, Math.max` included in the standard library. In Lisp there is no difference between keywords, operators, and functions. They are all used in exactly the same way.
 
 Below you can find the list of standard builtin Clojure specific functions also implemented in JavaScript grouped into the sample categories like:
+
 - predicates `nil?`, `string?`, ..
-- arithmetic and logic operators  `+`, `*`, ...
-- math functions `inc`, `dec`, ... 
+- arithmetic and logic operators `+`, `*`, ...
+- math functions `inc`, `dec`, ...
 - functions working with functions `identity`, `constantly`, ...
 
 ```scheme
@@ -90,7 +93,10 @@ var str = (...args) => args.join("");
 
 var identity = (x) => x;
 var constantly = (x) => () => x;
-var complement = (f) => (...args) => !f(...args);
+var complement =
+  (f) =>
+  (...args) =>
+    !f(...args);
 
 2 > 1 && "tata".endsWith("ta") && false; // => false
 2 > 1 || "tata".endsWith("ta") || false; // => true
@@ -122,11 +128,11 @@ The `apply` function takes two arguments: a function and a collection of values.
 add.apply(null, [1, 2]);
 ```
 
-The JavaScript function is a regular object containing members like properties or methods. Method `apply` works almost the same as the Clojure `apply` function presented above. The difference is an additional argument `null`. In the object-oriented programming style (OOP), a method is just a function called in the context of some additional object; for instance, `firstName.substring(1)` is just a function `substring` of type `string`. In functional or procedural programming, we pass all data as function arguments, like `substring(firstName, 1)`. Both JavaScript and Lisp treat functions as values. We can create a variable referencing a method `const substr = firstName.substring` and execute it later, execution of `substr.apply("JavaScript", [1])`  returns `"avaScrip"`. The first argument of the `apply` function represents "this" object, the `substring` function was called in the context of the `"JavaScript"` value instead of the `firstName` variable.
+The JavaScript function is a regular object containing members like properties or methods. Method `apply` works almost the same as the Clojure `apply` function presented above. The difference is an additional argument `null`. In the object-oriented programming style (OOP), a method is just a function called in the context of some additional object; for instance, `firstName.substring(1)` is just a function `substring` of type `string`. In functional or procedural programming, we pass all data as function arguments, like `substring(firstName, 1)`. Both JavaScript and Lisp treat functions as values. We can create a variable referencing a method `const substr = firstName.substring` and execute it later, execution of `substr.apply("JavaScript", [1])` returns `"avaScrip"`. The first argument of the `apply` function represents "this" object, the `substring` function was called in the context of the `"JavaScript"` value instead of the `firstName` variable.
 
 ### 'partial' function
 
-`partial` is another builtin function working with function values. The term "partial function application" in functional languages means "calling" a function without passing all argument values. In such a case, the function's body can not be executed, instead a new function is created. All passed arguments are bound and the returned function expects only the missing arguments. Let's say we have `add` function that adds two numbers, we can easily create a new function `increment` that increments by one the passed argument. 
+`partial` is another builtin function working with function values. The term "partial function application" in functional languages means "calling" a function without passing all argument values. In such a case, the function's body can not be executed, instead a new function is created. All passed arguments are bound and the returned function expects only the missing arguments. Let's say we have `add` function that adds two numbers, we can easily create a new function `increment` that increments by one the passed argument.
 
 ```scheme
 (def increment
@@ -140,12 +146,12 @@ var inc = add.bind(null, 1);
 inc(10); // => 11
 add.bind(null, 1)(10); // => 11
 ```
+
 Analogously to the `apply` function, a JavaScript object representing the function contains a method `bind`.
 
 ## 'comp' function (function composition)
 
 The next `comp` function implements the math term function composition. Let's say we have an `increment` function and a `str` function that converts any number into a string. Now we would like to create a new function taking a number and returning a string working like this `arg => str(increment(increment(arg)))`. A new composed function increments the number by two and converts it to a string.
-
 
 ```scheme
 (def increment-twice-then-to-string
@@ -155,14 +161,17 @@ The next `comp` function implements the math term function composition. Let's sa
 ```
 
 ```js
-var comp = (...funcs) => arg => funcs.reduceRight((a, f) => f(a), arg);
+var comp =
+  (...funcs) =>
+  (arg) =>
+    funcs.reduceRight((a, f) => f(a), arg);
 
 var incrementTwiceThenToString = comp(str, increment, increment);
 incrementTwiceThenToString(10); // => "12"
 ```
 
-This time there is no built-in function in JavaScript, but such a function can be easily implemented using the `reduceRight` array method. Many programming languages provide built-in functions or operators supporting function composition. For instance, in Haskell language `.` operator is used and that corresponds to [the math dot notation](https://en.wikipedia.org/wiki/Function_composition). Our previous example would look like this `str . increment . increment` in Haskell. The order of functions seems unnatural, because it tries to simulate the math notation. 
+This time there is no built-in function in JavaScript, but such a function can be easily implemented using the `reduceRight` array method. Many programming languages provide built-in functions or operators supporting function composition. For instance, in Haskell language `.` operator is used and that corresponds to [the math dot notation](https://en.wikipedia.org/wiki/Function_composition). Our previous example would look like this `str . increment . increment` in Haskell. The order of functions seems unnatural, because it tries to simulate the math notation.
 
 ## Summary
 
-In this article, we have implemented some basic built-in Clojure functions and operators in JavaScript. Next, we will discuss data structures like immutable linked lists and maps. 
+In this article, we have implemented some basic built-in Clojure functions and operators in JavaScript. Next, we will discuss data structures like immutable linked lists and maps.

@@ -1,8 +1,10 @@
 ---
 layout: post
-title: Sequences in JavaScript part 3 - leetcode problems [TypeScript]
+title: Sequences in JS part 3 - leetcode problems [TS]
 date: 2022-11-12
-tags: js powerseq
+tags:
+  - js
+  - powerseq
 published: true
 series: sequences
 ---

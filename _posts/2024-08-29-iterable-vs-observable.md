@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Iterable vs Observable [TypeScript]
+title: Iterable vs Observable [TS]
 date: 2024-08-29
 tags:
   - ts
