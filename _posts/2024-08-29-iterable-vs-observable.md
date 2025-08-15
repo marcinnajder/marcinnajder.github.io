@@ -4,7 +4,6 @@ title: Iterable vs Observable [TS]
 date: 2024-08-29
 tags:
   - ts
-  - rx
 series: iter-vs-obs
 ---
 ## Introduction
