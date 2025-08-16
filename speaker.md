@@ -4,7 +4,7 @@ title: speaker
 # permalink: /speaker/
 ---
 
-#### Recorded presentations (PL, Vimeo)
+#### List of recorded presentations (PL, Vimeo)
 
 - [2020.07.01 Evolution of web technologies (Webinar)](https://vimeo.com/434261357)
 - [2019.11.12 Lisp in JavaScript (JS User Group)](https://vimeo.com/372738403)

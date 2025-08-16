@@ -4,7 +4,7 @@ title: trainer
 # permalink: /trainer/
 ---
 
-Since 2012, I have had the pleasure of teaching excellent professional developers, both external clients and colleagues from my company. Each workshop takes 3 days, 8 hours a day, 10 to 15 attendees, and 12 to 18 workshops a year. There have been over 2000 developers so far. It was no joke, only hard work on both sides. There were many digressions, tough questions, and long discussions. Up to COVID, only in the office, then primarily online. Thank you all for participating, and I encourage you to register or just let me know so we can organize dedicated training for you. Screw it, let's do it.
+Since 2012, I have had the pleasure of teaching professional developers, both external clients and colleagues from my company. Each workshop takes 3 days, 8 hours a day, 10 to 15 attendees, and 12 to 18 workshops a year. There have been over 2000 developers so far. It was no joke, only hard work on both sides. There were many digressions, tough questions, and long discussions. Up to COVID, only in the office, then primarily online. Thank you all for participating, and I encourage you to register or just let me know so we can organize dedicated training for you. Screw it, let's do it.
 
 ### List of workshops
 
