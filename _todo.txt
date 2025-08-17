@@ -5,20 +5,32 @@ bundle exec jekyll serve
 
 
 MongoDB + AF https://github.com/marcinnajder/misc/commit/c72fe8d7bf7953fae92865fe0fb5e45dcc9c1130
-advanbces typing 1 - pick
-advanbces typing 2 - ensurePaths, ensurePatientProfile
+
+2025.04.30 - advanbces typing 2 - ensurePaths, ensurePatientProfile https://github.com/marcinnajder/misc/blob/master/2022_07_22_code_snippets/TypesScript/types/ensureProperties.ts
+2024.11.01 - advanbces typing 1 - pick https://github.com/marcinnajder/misc/commits/master/2022_07_22_code_snippets/TypesScript/types/pick.ts
+2023.08.16 F# solution summary https://github.com/marcinnajder/misc/commit/c620492613a38e8bad51775a16cfd043350315e4
+
+2021.10.10 https://github.com/marcinnajder/misc/tree/master/2021_09_16_monads_in_csharp/MonadsInCSharp
+- 2022.05.20 https://gist.github.com/marcinnajder/9458a0532873837c70188ec972b97465 HackingAsyncAwait_AnyMonadImpl.cs
+- 2022.05.20 https://gist.github.com/marcinnajder/d64afe842db3c92ae54add9bbe778f8d
+
+
+! 2023_10_29_algorithms_and_data_structures_in_csharp LLIST + Collections https://github.com/marcinnajder/misc/blob/master/2023_10_29_algorithms_and_data_structures_in_csharp/LList.md
+2021.04.27 LList C# https://github.com/marcinnajder/misc/blob/master/2021_04_18_make_a_lisp_in_csharp/Mal/Mal/PowerFP/LList.cs
+
+
+
+
 LList w C# 1
 LList w C# 1 LINQ
 LList w C# 2 + collection expression https://github.com/marcinnajder/misc/commit/7720d0faca87070c9e7224e271d51b2d677109ec
 https://github.com/marcinnajder/misc/blob/master/2022_07_22_code_snippets/TypesScript/seq/lazyList.md
-angular race condtions https://github.com/marcinnajder/misc/commit/d8639f690edb2e1d62cb0d87db187181260724b6
-angular cachiong interceptor https://github.com/marcinnajder/misc/commit/4a9c79bbc63265362bd8e1a8715b7f45b6ebf6c1
 y-combinator https://github.com/marcinnajder/misc/commit/6a25131574f8d765c323cdb8143cff57a3f1883e
 cos o kotlin ?
-F# solution summary https://github.com/marcinnajder/misc/commit/c620492613a38e8bad51775a16cfd043350315e4
+
 F# DI https://github.com/marcinnajder/misc/commit/fc25be332718abe19e95d3c27d37b386a14b45cb
 
-Monads
+2019 Monads w JS
 Monads w C# https://github.com/marcinnajder/misc/commit/c72fe8d7bf7953fae92865fe0fb5e45dcc9c1130
 Monads add IO monad implementation based on rxjs https://github.com/marcinnajder/misc/commit/0cb2ae865b1a41fc97792caec2ac9a1993d46c7e
 _monad_do_notation_using_js_generators https://github.com/marcinnajder/misc/commit/16683530b1ed9a446c68387a5f7874a66ebab186
@@ -26,11 +38,6 @@ MAL
 init commit :) May 7, 2018 https://github.com/marcinnajder/misc/commit/fbed3694e90c204b46950632464aff644e3198b3 
 - 2018_01_15_simple-way-of-defining-actions/README.md
 - 2018_04_09_countdown-problem-in-typescript/.vscode/launch.json 
-
-
-
-
-
 
 
 kolejne wpisy
