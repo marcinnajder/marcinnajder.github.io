@@ -8,22 +8,14 @@ MongoDB + AF https://github.com/marcinnajder/misc/commit/c72fe8d7bf7953fae92865f
 
 2025.04.30 - advanbces typing 2 - ensurePaths, ensurePatientProfile https://github.com/marcinnajder/misc/blob/master/2022_07_22_code_snippets/TypesScript/types/ensureProperties.ts
 2024.11.01 - advanbces typing 1 - pick https://github.com/marcinnajder/misc/commits/master/2022_07_22_code_snippets/TypesScript/types/pick.ts
-2023.08.16 F# solution summary https://github.com/marcinnajder/misc/commit/c620492613a38e8bad51775a16cfd043350315e4
+
 
 2021.10.10 https://github.com/marcinnajder/misc/tree/master/2021_09_16_monads_in_csharp/MonadsInCSharp
 - 2022.05.20 https://gist.github.com/marcinnajder/9458a0532873837c70188ec972b97465 HackingAsyncAwait_AnyMonadImpl.cs
 - 2022.05.20 https://gist.github.com/marcinnajder/d64afe842db3c92ae54add9bbe778f8d
 
 
-! 2023_10_29_algorithms_and_data_structures_in_csharp LLIST + Collections https://github.com/marcinnajder/misc/blob/master/2023_10_29_algorithms_and_data_structures_in_csharp/LList.md
-2021.04.27 LList C# https://github.com/marcinnajder/misc/blob/master/2021_04_18_make_a_lisp_in_csharp/Mal/Mal/PowerFP/LList.cs
 
-
-
-
-LList w C# 1
-LList w C# 1 LINQ
-LList w C# 2 + collection expression https://github.com/marcinnajder/misc/commit/7720d0faca87070c9e7224e271d51b2d677109ec
 https://github.com/marcinnajder/misc/blob/master/2022_07_22_code_snippets/TypesScript/seq/lazyList.md
 y-combinator https://github.com/marcinnajder/misc/commit/6a25131574f8d765c323cdb8143cff57a3f1883e
 cos o kotlin ?
@@ -40,11 +32,6 @@ init commit :) May 7, 2018 https://github.com/marcinnajder/misc/commit/fbed3694e
 - 2018_04_09_countdown-problem-in-typescript/.vscode/launch.json 
 
 
-kolejne wpisy
-- najlepiej zeknac sobie po wbitkach do repo "misc" kiedy i czym sie zamowalem, kilka przykladowych tematow
-- ...
-- https://github.com/marcinnajder/misc/blob/master/2022_07_22_code_snippets/TypesScript/seq/lazyList.md
-- https://github.com/marcinnajder/misc/blob/master/2022_07_22_code_snippets/TypesScript/seq/iterVsObs.md
 
 
 
