@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-14-immutable-list-in-modern-csharp-part5-optimization.md",
+                "file": "_posts/2023-08-16-dotnet-project-overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2023-11-14-immutable-list-in-modern-csharp-part5-optimization"
+              "title": "2023-08-16-dotnet-project-overview"
             }
           }
         ]
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 575.5
+    "width": 484.5
   },
   "right": {
     "id": "88aa91131d8f6989",
@@ -172,10 +172,15 @@
   },
   "active": "ef5770e445bbae8c",
   "lastOpenFiles": [
+    "_posts/2023-03-21-lisp-for-javascript-developer-part-4-macros.md",
+    "_posts/2023-08-16-dotnet-project-overview.md",
+    "_site/2023/08/16/dotnet-project-overview.html",
+    "_site/2023/08/16",
+    "_site/2023/08",
+    "_posts/2023-11-07-immutable-list-in-modern-csharp-part4-linq.md",
+    "_posts/2023-11-14-immutable-list-in-modern-csharp-part5-optimization.md",
     "_posts/2022-12-01-immutable-list-in-modern-csharp-part2- aoc-puzzle.md",
     "_posts/2021-10-10-immutable-list-in-modern-csharp-part1-minimal.md",
-    "_posts/2023-11-14-immutable-list-in-modern-csharp-part5-optimization.md",
-    "_posts/2023-11-07-immutable-list-in-modern-csharp-part4-linq.md",
     "_posts/2023-10-29-immutable-list-in-modern-csharp-part3-modernization.md",
     "_site/2023/11/07/immutable-list-in-modern-csharp-part4-linq.html",
     "_site/2023/11/07",
@@ -184,15 +189,11 @@
     "_site/2023/11/14",
     "_site/2023/11/07/immutable-list-in-modern-csharp-part5-optimization.html",
     "_site/2023/11",
-    "_site/2023/10/29/immutable-list-in-modern-csharp-part3-modernization.html",
     "aboutme.md",
     "_posts/2023-02-28-lisp-for-javascript-developer-part-1-fundamentals.md",
     "_posts/2012-08-28-js-interactive-in-vs.md",
-    "_site/2023/10/29/immutable-list-in-modern-csharp-part3-merdnization.html",
     "speaker.md",
     "_posts/2023-04-04-lisp-for-javascript-developer-part-6-aoc-puzzle.md",
-    "_posts/2023-03-21-lisp-for-javascript-developer-part-4-macros.md",
-    "_site/2023/10/29/immutable-list-in-modern-csharp-part3-improvements.html",
     "_posts/2022-11-02-sequences-in-javascript-part-1-introduction-to-powerseq.md",
     "_posts/2009-08-30-inside-linq-queries.md",
     "_posts/2025-04-16-sequences-in-go-part-3-real-world-problems.md",
@@ -206,7 +207,6 @@
     "_posts/2022-11-12-sequences-in-javascript-part-3-leetcode-problems.md",
     "_posts/2022-11-14-sequences-in-javascript-part-4-real-world-problems.md",
     "_posts/2023-03-07-lisp-for-javascript-developer-part-2-built-in-functions.md",
-    "_posts/2023-03-28-lisp-for-javascript-developer-part-5-recursion.md",
     "_site/assets/images/jsrepl3.png",
     "assets/images/jsrepl3.png",
     "_site/assets/images/image_thumb7.png",
