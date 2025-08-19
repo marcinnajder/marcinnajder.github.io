@@ -125,7 +125,7 @@ The signature looks like this `pickm<T, const Es extends Entry<T>[]>(obj: T, ...
 
 The purpose of `PickM<T, Es>` should be similar to built-in`Pick<T, K>`; it creates a new object type from the input object type `T`  that contains only specified (and mapped) properties.
 
-Recursion and a ternary operator (`... ? ...: ... )` are two fundamental mechanisms in TypeScript that allow us to build more complicated types. Bot types, `Duplicate<T>`and `PickM<T, ES>`, use them.
+Recursion and a ternary operator (`... ? ...: ... )` are two fundamental mechanisms in TypeScript that allow us to build more complicated types. They are used by `Duplicate<T>`and `PickM<T, ES>`.
 
 The simplified definition of  `Duplicate<T>` looks like this.
 
