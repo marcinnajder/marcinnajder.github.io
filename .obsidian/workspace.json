@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-04-30-advanced-typing-ensurepaths.md",
+                "file": "aboutme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-30-advanced-typing-ensurepaths"
+              "title": "aboutme"
             }
           }
         ]
@@ -172,8 +172,9 @@
   },
   "active": "ef5770e445bbae8c",
   "lastOpenFiles": [
-    "aboutme.md",
+    "_posts/2023-08-16-dotnet-project-overview.md",
     "_posts/2025-04-30-advanced-typing-ensurepaths.md",
+    "aboutme.md",
     "_site/2025/05/30/advanced-typing-ensurepaths.html",
     "_posts/2023-02-28-lisp-for-javascript-developer-part-1-fundamentals.md",
     "_site/2025/05/30/advanced-typing-ensureproperties.html",
@@ -191,7 +192,6 @@
     "_posts/2024-11-20-angular-http-interceptor-cancellation.md",
     "_site/2024/11/01/advanced-typing-pick.html",
     "_site/2024/11/01",
-    "_posts/2023-08-16-dotnet-project-overview.md",
     "_posts/2023-03-21-lisp-for-javascript-developer-part-4-macros.md",
     "_site/2023/08/16/dotnet-project-overview.html",
     "_site/2023/08/16",

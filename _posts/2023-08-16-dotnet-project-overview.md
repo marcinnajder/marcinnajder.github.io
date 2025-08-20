@@ -3,7 +3,7 @@ layout: post
 title: .NET project overview [F#]
 date: 2023-08-16
 tags: 
-series: immutable-list-csharp
+series: immutable-list-csharp1
 ---
 Let's say we have a quite big .NET project we have never seen before. A microservice sample [eShop](https://github.com/dotnet/eShop/tree/main) project would be a good example. If we open up the solution in Visual Studio, we will see more than 20 different C# projects.
 
