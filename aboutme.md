@@ -6,7 +6,7 @@ title: about me
 
 #### About me
 
-I am a software developer/architect, [speaker](/speaker), [trainer](/trainer), and team leader working primarily with .NET and JavaScript ecosystems. I love learning new things, especially new programming languages and techniques that allow us to build software in a simple way.
+I am a software developer/architect, [speaker](/speaker), [trainer](/trainer), and tech leader working primarily with .NET and JavaScript ecosystems. I love learning new things, especially new programming languages and techniques that allow us to build software in a simple way.
 
 My professional career started in 2005, right after I graduated from computer science studies, with an internship and then employment as a .NET programmer. That was when a new .NET 2.0 and VS 2005 were released with the modernized C# 2.0 language. Up to 2012, I had been working with almost all crucial .NET technologies released back then, such as WPF, WCF, WF, EF, LINQ, TPL, Silverlight, Kinect, and XNA. My R&D team had been responsible for designing the architecture and implementing tools and infrastructure for building a new ERP system. After that, we started many smaller products, like applications for Kinect with Xbox, the original Microsoft Surface touch table, and even for Windows Phone. With the growing popularity of Silverlight, we decided to create a programming platform for building multi-tenant SaaS applications, and then a new lightweight ERP system based on it. 
 
