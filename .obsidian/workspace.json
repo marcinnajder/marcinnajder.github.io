@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aboutme.md",
+                "file": "puzzles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "aboutme"
+              "title": "puzzles"
             }
           }
         ]
@@ -172,9 +172,19 @@
   },
   "active": "ef5770e445bbae8c",
   "lastOpenFiles": [
+    "puzzles.markdown",
+    "aboutme.md",
+    "_site/assets/images/profilelinkedin.jpeg",
+    "_posts/2009-11-12-linq-to-icollectionview.md",
+    "_posts/2008-11-10-expression-trees-instead-of-strings-part-2-workflowarguments.md",
+    "assets/images/profilelinkedin.jpeg",
+    "assets/images/profilelinked.jpeg",
+    "assets/images/IMG_2557.jpeg",
+    "trainer.md",
+    "puzzles.md",
+    "speaker.md",
     "_posts/2023-08-16-dotnet-project-overview.md",
     "_posts/2025-04-30-advanced-typing-ensurepaths.md",
-    "aboutme.md",
     "_site/2025/05/30/advanced-typing-ensurepaths.html",
     "_posts/2023-02-28-lisp-for-javascript-developer-part-1-fundamentals.md",
     "_site/2025/05/30/advanced-typing-ensureproperties.html",
@@ -182,9 +192,7 @@
     "_site/2025/05",
     "_site/assets/images/profiletwitter.jpg",
     "_posts/2025-04-16-sequences-in-go-part-3-real-world-problems.md",
-    "_posts/2009-11-12-linq-to-icollectionview.md",
     "_posts/2009-09-14-incremental-search-with-rx.md",
-    "_posts/2008-11-10-expression-trees-instead-of-strings-part-2-workflowarguments.md",
     "_posts/2024-11-01-advanced-typing-pick.md",
     "assets/images/profiletwitter.jpg",
     "assets/images/profile.jpg",
@@ -203,19 +211,12 @@
     "_posts/2023-10-29-immutable-list-in-modern-csharp-part3-modernization.md",
     "_site/2023/11/07/immutable-list-in-modern-csharp-part4-linq.html",
     "_posts/2012-08-28-js-interactive-in-vs.md",
-    "speaker.md",
     "_posts/2023-04-04-lisp-for-javascript-developer-part-6-aoc-puzzle.md",
     "_posts/2022-11-02-sequences-in-javascript-part-1-introduction-to-powerseq.md",
     "_posts/2009-08-30-inside-linq-queries.md",
     "_posts/2024-09-27-angular-http-interceptor-caching.md",
     "_posts/2024-08-29-iterable-vs-observable.md",
-    "_posts/2023-03-14-lisp-for-javascript-developer-part-3-data-structures.md",
-    "_posts/2011-09-05-when-the-reactive-framework-meets-fsharp3.md",
     "_site/assets/images/jsrepl3.png",
-    "assets/images/jsrepl3.png",
-    "_site/assets/images/image_thumb7.png",
-    "assets/images/image_thumb7.png",
-    "_site/assets/images/jsrepl2.png",
-    "assets/images/jsrepl2.png"
+    "assets/images/jsrepl3.png"
   ]
 }

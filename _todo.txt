@@ -3,12 +3,10 @@ bundle exec jekyll serve
 
 <- tak sie uruchamia lokalnie :)
 
+zos vs ts compiler 
+swagger 
 
-MongoDB + AF https://github.com/marcinnajder/misc/commit/c72fe8d7bf7953fae92865fe0fb5e45dcc9c1130
-
-2025.04.30 - advanbces typing 2 - ensurePaths, ensurePatientProfile https://github.com/marcinnajder/misc/blob/master/2022_07_22_code_snippets/TypesScript/types/ensureProperties.ts
-2024.11.01 - advanbces typing 1 - pick https://github.com/marcinnajder/misc/commits/master/2022_07_22_code_snippets/TypesScript/types/pick.ts
-
+MongoDB + AF https://github.com/marcinnajder/misc/commit/c72fe8d7bf7953fae92865fe0fb5e45dcc9c1130 + patten matching ?
 
 2021.10.10 https://github.com/marcinnajder/misc/tree/master/2021_09_16_monads_in_csharp/MonadsInCSharp
 - 2022.05.20 https://gist.github.com/marcinnajder/9458a0532873837c70188ec972b97465 HackingAsyncAwait_AnyMonadImpl.cs

@@ -4,6 +4,7 @@ title: puzzles
 # permalink: /puzzles/
 ---
 
+Below is a list of programming puzzles from [Advent Of Code](https://adventofcode.com/), and [LeetCode](https://leetcode.com/) written in various programming languages (C#, F#, JS, TS, Clojure, Kotlin, Go).
 
 #### Advent Of Code 2024
 
@@ -26,6 +27,7 @@ title: puzzles
  - [17 computer](https://adventofcode.com/2024/day/17) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day17_computer/puzzle.go)
  - [18 path](https://adventofcode.com/2024/day/18) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day18_path/puzzle.go)
  - [19 towels](https://adventofcode.com/2024/day/19) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day19_towels/puzzle.go)
+ - [20 cheating](https://adventofcode.com/2024/day/20) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day20_cheating/puzzle.go)
 
 #### Advent Of Code 2023
 
@@ -70,7 +72,7 @@ title: puzzles
 
 #### Advent Of Code 2021
 
- - [01 increases](https://adventofcode.com/2021/day/1) - [F#](https://github.com/marcinnajder/misc/tree/master/2021_12_24_advent_of_code_in_fsharp/AdventOfCode/AdventOfCode2021/Day01_increases.fs), [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2021/Day01.cs), [JS](https://github.com/marcinnajder/misc/tree/master/2023_06_01_advent_of_code_in_javascript/src/2021/day01_increases.js)
+ - [01 increases](https://adventofcode.com/2021/day/1) - [F#](https://github.com/marcinnajder/misc/tree/master/2021_12_24_advent_of_code_in_fsharp/AdventOfCode/AdventOfCode2021/Day01_increases.fs), [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2021/Day01.cs), [JS](https://github.com/marcinnajder/misc/tree/master/2023_06_01_advent_of_code_in_javascript/src/2021/day01_increases.js), [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2021/day01_increases/puzzle.go)
  - [02 submarine](https://adventofcode.com/2021/day/2) - [F#](https://github.com/marcinnajder/misc/tree/master/2021_12_24_advent_of_code_in_fsharp/AdventOfCode/AdventOfCode2021/Day02_submarine.fs), [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2021/Day02.cs)
  - [03 binary](https://adventofcode.com/2021/day/3) - [F#](https://github.com/marcinnajder/misc/tree/master/2021_12_24_advent_of_code_in_fsharp/AdventOfCode/AdventOfCode2021/Day03_binary.fs)
  - [04 bingo](https://adventofcode.com/2021/day/4) - [F#](https://github.com/marcinnajder/misc/tree/master/2021_12_24_advent_of_code_in_fsharp/AdventOfCode/AdventOfCode2021/Day04_bingo.fs), [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2021/Day04.cs)
@@ -104,6 +106,13 @@ title: puzzles
  - [07 bags](https://adventofcode.com/2020/day/7) - [Kotlin](https://github.com/marcinnajder/misc/tree/master/2023_10_03_advent_of_code_in_kotlin/AdventOfCode/src/main/kotlin/adventOfCode2020/day07_bags.kt)
  - [08 assembler](https://adventofcode.com/2020/day/8) - [Kotlin](https://github.com/marcinnajder/misc/tree/master/2023_10_03_advent_of_code_in_kotlin/AdventOfCode/src/main/kotlin/adventOfCode2020/day08_assembler.kt)
  - [09 numbers](https://adventofcode.com/2020/day/9) - [Kotlin](https://github.com/marcinnajder/misc/tree/master/2023_10_03_advent_of_code_in_kotlin/AdventOfCode/src/main/kotlin/adventOfCode2020/day09_numbers.kt)
+
+#### Advent Of Code 2019
+
+ - [01 mass](https://adventofcode.com/2019/day/1) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2019/day01_mass/puzzle.go)
+ - [02 computer](https://adventofcode.com/2019/day/2) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2019/day02_computer/puzzle.go)
+ - [03 snakes](https://adventofcode.com/2019/day/3) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2019/day03_snakes/puzzle.go)
+ - [04 passwords](https://adventofcode.com/2019/day/4) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2019/day04_passwords/puzzle.go)
 
 #### Advent Of Code 2015
 
