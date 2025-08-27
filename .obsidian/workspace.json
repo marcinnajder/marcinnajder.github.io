@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2021-04-25-hacking-async-await-any-monad.md",
+                "file": "_posts/2021-04-18-hacking-async-await-optional-task-like.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2021-04-25-hacking-async-await-any-monad"
+              "title": "2021-04-18-hacking-async-await-optional-task-like"
             }
           }
         ]
@@ -186,6 +186,7 @@
   },
   "active": "ef5770e445bbae8c",
   "lastOpenFiles": [
+    "_posts/_2021-04-25-hacking-async-await-any-monad.md",
     "_posts/2024-12-01-sequences-in-go-part-1-introduction-to-iterators.md",
     "_posts/2025-04-30-advanced-typing-ensurepaths.md",
     "_posts/2024-11-01-advanced-typing-pick.md",
@@ -229,7 +230,6 @@
     "_posts/2023-11-07-immutable-list-in-modern-csharp-part4-linq.md",
     "_posts/2023-11-14-immutable-list-in-modern-csharp-part5-optimization.md",
     "_posts/2022-12-01-immutable-list-in-modern-csharp-part2- aoc-puzzle.md",
-    "_posts/2023-10-29-immutable-list-in-modern-csharp-part3-modernization.md",
     "_site/assets/images/jsrepl3.png",
     "assets/images/jsrepl3.png"
   ]
