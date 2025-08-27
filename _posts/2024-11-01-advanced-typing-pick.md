@@ -30,7 +30,7 @@ const names2 = people.map(({ id, name }) => ({ id, name }));
 // -> // { id: number; name: string; }[]
 ```
 
- The code above annoys me every time I write it. It's because mapping logic cannot be written without repeating the property names twice, like the `name` property in each lambda below was repeated. At least, I don't know how to do this. In C#, for example, the following code is correct `p => new { p.Id, p.Name }`. It uses an anonymous type where the property names are inferred from the context. We could specify the names explicitly if we wanted, like `p => new { p.Id, PersonName = p.Name }`.
+ The code above annoys me every time I write it. It's because mapping logic cannot be written without repeating the property names twice, like the `name` property in each lambda above was repeated. At least, I don't know how to do this. In C#, for example, the following code is correct `p => new { p.Id, p.Name }`. It uses an anonymous type where the property names are inferred from the context. We could specify the names explicitly if we wanted, like `p => new { p.Id, PersonName = p.Name }`.
  
  I had been thinking about this problem for a while, and finally, I found a simple solution: a helper function called `pick`.
 
@@ -121,7 +121,7 @@ type PickM<T, Es extends EntryPair<T>[] | unknown> =
 
 Let's explain what is happening. Types like `EntryPair<T>` and `Entry<T>` are primarily used as constraints of a generic parameter; they appear after `... extends Entry<T>[]`. 
 
-The signature looks like this `pickm<T, const Es extends Entry<T>[]>(obj: T, ...entries: Es)`. For our previous call `pickm(p, "id", "name", ["personAge", "age"])`, a generic type argument `Es` will be inferred as `["id", "name", ["personAge", "age"]]`. The helper type `Duplicate<Es>` will transform actual `Es` into `[["id", "id"], ["name", "name"], ["personAge", "age"]]`. We introduced the `Duplicate` type because the final type `PickM<T, Es extends EntryPair<T>[] | unknown>` expects `Es` to be an array of `EntryPair<T>` (which is always a pair). `Duplicate` type ensures pairs.
+The method signature looks like this `pickm<T, const Es extends Entry<T>[]>(obj: T, ...entries: Es)`. For our previous call `pickm(p, "id", "name", ["personAge", "age"])`, a generic type argument `Es` will be inferred as `["id", "name", ["personAge", "age"]]`. The helper type `Duplicate<Es>` will transform actual `Es` into `[["id", "id"], ["name", "name"], ["personAge", "age"]]`. We introduced the `Duplicate` type because the final type `PickM<T, Es extends EntryPair<T>[] | unknown>` expects `Es` to be an array of `EntryPair<T>` (which is always a pair). `Duplicate` type ensures pairs.
 
 The purpose of `PickM<T, Es>` should be similar to built-in`Pick<T, K>`; it creates a new object type from the input object type `T`  that contains only specified (and mapped) properties.
 
@@ -151,4 +151,4 @@ type PickM<T, Es> = ... ? { [key in NewKey : T[Key] } & PickM<T, Rest> : unknown
 
 I hope you can see the recursive call of `PickM`. The pair `[NewKey, Key]` describes the mapping of property names. The final result is represented as an intersection type of `{ [key in NewKey : T[Key] }` and the recursive call `PickM<T, Rest>` for mapping pairs left.
 
-Maybe we should stop here, because I have yet another idea ... ;) What about a scenario like `pickm(p, "id", "name", ["personAge", "age"], ["personCounty", "address.country"])`? Check the following article about the `ensureProperties` function.
+Maybe we should stop here, because I have yet another idea ... ;) What about a scenario like `pickm(p, "id", "name", ["personAge", "age"], ["personCounty", "address.country"])`? Check out the next article about the `ensureProperties` function.
