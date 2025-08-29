@@ -53,7 +53,7 @@ Let's say we have different collections, such as an array, an array list, a dict
 
 That gives key benefits such as: 
 - The code responsible for iteration looks the same regardless of the collection.
-- A programming language can introduce special keywords to simplify and shorten necessary code. `foreach` in C# is a `while` loop using `IEnumerable<T>` and `IEnumerator<T>` objects behind the scenes.
+- A programming language can introduce special keywords to simplify and shorten necessary code. `foreach` is a `while` loop using `IEnumerable<T>` and `IEnumerator<T>` objects behind the scenes.
 
 ```csharp
 var items = new[] { 5, 10, 15 };
@@ -71,7 +71,7 @@ while (iterator.MoveNext())
     Console.WriteLine(item);
 }
 ```
-- Instead of implementing the same functionality for each collection, we can implement it once for the extracted abstraction/interface. The `Enumerable` class provides over 50 operators taking `IEnumerable<T>`, such as `Where`, `Select`, etc.
+- Instead of implementing the same functionality for each collection, we can implement it once for an abstracted interface. The `Enumerable` class provides over 50 operators working with `IEnumerable<T>`, such as `Where`, `Select`, etc.
 
 What exactly is an abstraction of the Monad? Someone noticed that types like `Nullable<T>`, `Optional<T>`, `Task<T>`, `T[]`, `IEnumerable<T>`, `IObservable<T>`, `List<T>`, ... are "the same". Our first guess would be that all types are generic with one generic parameter `T`. That's a correct observation, but it is not enough. There are many such genetic types; we could not do much with them.
 
@@ -242,7 +242,7 @@ Unfortunately, the C# authors did not consider Monad abstraction when designing 
 It might become clearer once you read the whole implementation of the `IEnumerableMethodBuilder` type in the next part of the series. Please note that this time, the `AsyncMethodBuilder` attribute decorated an async method instead of a type. The ability to decorate methods was added in C#10 and .NET6 in 2021 for scenarios where we cannot put the attribute above the type we don't own.
 ## IO
 
-Let's discuss the less obvious type, `IO` Monad. I still remember the feeling when I finally understood how we could write whole programs in a pure language like Haskell and still perform IO operations. I was like a magic.
+Let's discuss the less obvious type, `IO` Monad. I still remember the feeling when I finally understood how we could write whole programs in a pure language like Haskell and still perform IO operations. It was like a magic.
 
 A pure function must follow two rules:
 - It always returns the same result for the same parameters, so it's deterministic. For example, `(a,b) => a + b` is pure,  and `x => DateTime.Now.Add(TimeSpan.FromDays(x))` is not.
