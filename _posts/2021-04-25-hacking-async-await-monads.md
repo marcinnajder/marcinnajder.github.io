@@ -322,7 +322,7 @@ result = do
   m <- tryReadNumber()
   return `${n}+${m}=${n+m}`
 
-// is translated into
+// is translated into ~
 tryReadNumber().bind(n => tryReadNumber().bind(m => some(`${n}+${m}=${n+m}`) );
 ```
 
@@ -336,7 +336,7 @@ let parseTwoInts str1 str2 =
         return value1 + value2
     }
 
-// is translated into
+// is translated into ~
 let parseTwoInts str1 str2 =
     option.Bind(
         (tryParseInt str1),
