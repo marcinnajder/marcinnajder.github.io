@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2021-05-02-hacking-async-await-monad-task-like.md",
+                "file": "_posts/2021-06-13-expression-trees-and-pattern-matching.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2021-05-02-hacking-async-await-monad-task-like"
+              "title": "2021-06-13-expression-trees-and-pattern-matching"
             }
           }
         ]
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 486.5
+    "width": 273.5
   },
   "right": {
     "id": "88aa91131d8f6989",
@@ -172,8 +172,12 @@
   },
   "active": "93c2f0388f60a405",
   "lastOpenFiles": [
-    "_posts/2021-10-10-immutable-list-in-modern-csharp-part1-minimal.md",
+    "_site/2021/06/13/expression-trees-and-pattern-matching.html",
+    "_site/2021/06/13",
+    "_site/2021/06",
     "_posts/2021-05-02-hacking-async-await-monad-task-like.md",
+    "_posts/2021-06-13-expression-trees-and-pattern-matching.md",
+    "_posts/2021-10-10-immutable-list-in-modern-csharp-part1-minimal.md",
     "_posts/2021-04-18-hacking-async-await-optional-task-like.md",
     "_site/2021/05/02/hacking-async-await-monad-task-like.html",
     "_site/2021/05/02",
@@ -190,8 +194,6 @@
     "_posts/2024-12-01-sequences-in-go-part-1-introduction-to-iterators.md",
     "_posts/2024-11-01-advanced-typing-pick.md",
     "_site/2021/04/18/hacking-async-await-optional-task-like.html",
-    "_site/2021/04/18/hacking-async-await-optional.html",
-    "_site/2021/04/18",
     "_posts/2012-08-28-js-interactive-in-vs.md",
     "_posts/2023-02-28-lisp-for-javascript-developer-part-1-fundamentals.md",
     "_posts/2023-04-04-lisp-for-javascript-developer-part-6-aoc-puzzle.md",
@@ -214,7 +216,6 @@
     "assets/images/profiletwitter.jpg",
     "assets/images/profile.jpg",
     "assets/images/dnw9-CUW_400x400.jpg",
-    "_posts/2024-11-20-angular-http-interceptor-cancellation.md",
     "_site/assets/images/jsrepl3.png",
     "assets/images/jsrepl3.png"
   ]
