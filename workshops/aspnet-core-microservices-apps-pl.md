@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Tworzenie aplikacji Internetowych z wykorzystaniem ASP.NET Core
+title: Aplikacje mikroserwisowe w ASP.NET Core
 ---
-# Tworzenie aplikacji Internetowych z wykorzystaniem ASP.NET Core
+# Aplikacje mikroserwisowe w ASP.NET Core
 
 Zarejestruj [tutaj](https://www.comarch.pl/szkolenia/programowanie/net-c/aplikacje-mikroserwisowe-w-aspnet-core/) lub napisz bezpośrednio
 ### Opis

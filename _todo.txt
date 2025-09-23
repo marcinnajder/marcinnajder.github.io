@@ -76,3 +76,17 @@ Caliburn.Micro (1)
 Puzzle (1)
 Reflection (1)
 XNA (1)
+
+
+
+https://marcinnajder.github.io/2021/04/18/hacking-async-await-optional-task-like.html
+https://marcinnajder.github.io/2021/06/13/expression-trees-and-pattern-matching.html
+https://marcinnajder.github.io/2021/10/10/immutable-list-in-modern-csharp-part1-minimal.html
+https://marcinnajder.github.io/2022/11/02/sequences-in-javascript-part-1-introduction-to-powerseq.html
+https://marcinnajder.github.io/2023/02/28/lisp-for-javascript-developer-part-1-fundamentals.html
+https://marcinnajder.github.io/2023/08/16/dotnet-project-overview.html
+https://marcinnajder.github.io/2024/08/29/iterable-vs-observable.html
+https://marcinnajder.github.io/2024/11/01/advanced-typing-pick.html
+https://marcinnajder.github.io/2024/11/20/angular-http-interceptor-cancellation.html
+https://marcinnajder.github.io/2024/12/01/sequences-in-go-part-1-introduction-to-iterators.html
+https://marcinnajder.github.io/2025/05/30/advanced-typing-ensurepaths.html
