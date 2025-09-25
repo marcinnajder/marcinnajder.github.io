@@ -114,6 +114,10 @@ Below is a list of programming puzzles from [Advent Of Code](https://adventofcod
  - [03 snakes](https://adventofcode.com/2019/day/3) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2019/day03_snakes/puzzle.go)
  - [04 passwords](https://adventofcode.com/2019/day/4) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2019/day04_passwords/puzzle.go)
 
+#### Advent Of Code 2016
+
+ - [01 ](https://adventofcode.com/2016/day/1) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day01.cs)
+
 #### Advent Of Code 2015
 
  - [01 brackets](https://adventofcode.com/2015/day/1) - [F#](https://github.com/marcinnajder/misc/tree/master/2021_12_24_advent_of_code_in_fsharp/AdventOfCode/AdventOfCode2015/Day01_brackets.fs)
