@@ -119,6 +119,7 @@ Below is a list of programming puzzles from [Advent Of Code](https://adventofcod
  - [01 ](https://adventofcode.com/2016/day/1) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day01.cs)
  - [02 ](https://adventofcode.com/2016/day/2) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day02.cs)
  - [03 ](https://adventofcode.com/2016/day/3) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day03.cs)
+ - [04 ](https://adventofcode.com/2016/day/4) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day04.cs)
 
 #### Advent Of Code 2015
 
