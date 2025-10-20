@@ -116,16 +116,16 @@ Below is a list of programming puzzles from [Advent Of Code](https://adventofcod
 
 #### Advent Of Code 2016
 
- - [01 ](https://adventofcode.com/2016/day/1) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day01.cs)
- - [02 ](https://adventofcode.com/2016/day/2) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day02.cs)
- - [03 ](https://adventofcode.com/2016/day/3) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day03.cs)
- - [04 ](https://adventofcode.com/2016/day/4) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day04.cs)
- - [05 ](https://adventofcode.com/2016/day/5) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day05.cs)
- - [06 ](https://adventofcode.com/2016/day/6) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day06.cs)
- - [07 ](https://adventofcode.com/2016/day/7) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day07.cs)
- - [08 ](https://adventofcode.com/2016/day/8) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day08.cs)
- - [09 ](https://adventofcode.com/2016/day/9) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day09.cs)
- - [10 ](https://adventofcode.com/2016/day/10) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day10.cs)
+ - [01 route](https://adventofcode.com/2016/day/1) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day01_route.cs)
+ - [02 keypad](https://adventofcode.com/2016/day/2) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day02_keypad.cs)
+ - [03 triangles](https://adventofcode.com/2016/day/3) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day03_triangles.cs)
+ - [04 decrypt](https://adventofcode.com/2016/day/4) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day04_decrypt.cs)
+ - [05 md5](https://adventofcode.com/2016/day/5) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day05_md5.cs)
+ - [06 histograms](https://adventofcode.com/2016/day/6) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day06_histograms.cs)
+ - [07 abba](https://adventofcode.com/2016/day/7) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day07_abba.cs)
+ - [08 screen](https://adventofcode.com/2016/day/8) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day08_screen.cs)
+ - [09 compression](https://adventofcode.com/2016/day/9) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day09_compression.cs)
+ - [10 bots](https://adventofcode.com/2016/day/10) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day10_bots.cs)
 
 #### Advent Of Code 2015
 
