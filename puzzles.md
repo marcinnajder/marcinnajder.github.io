@@ -6,6 +6,10 @@ title: puzzles
 
 Below is a list of programming puzzles from [Advent Of Code](https://adventofcode.com/), and [LeetCode](https://leetcode.com/) written in various programming languages (C#, F#, JS, TS, Clojure, Kotlin, Go).
 
+#### Advent Of Code 2025
+
+ - [01 dial](https://adventofcode.com/2025/day/1) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2025/Day01_dial.cs)
+
 #### Advent Of Code 2024
 
  - [01 distances](https://adventofcode.com/2024/day/1) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day01_distances/puzzle.go)
@@ -27,7 +31,7 @@ Below is a list of programming puzzles from [Advent Of Code](https://adventofcod
  - [17 computer](https://adventofcode.com/2024/day/17) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day17_computer/puzzle.go)
  - [18 path](https://adventofcode.com/2024/day/18) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day18_path/puzzle.go)
  - [19 towels](https://adventofcode.com/2024/day/19) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day19_towels/puzzle.go)
- - [20 cheating](https://adventofcode.com/2024/day/20) - [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day20_cheating/puzzle.go)
+ - [20 cheating](https://adventofcode.com/2024/day/20) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2024/Day20_cheating.cs), [Go](https://github.com/marcinnajder/misc/tree/master/2024_12_30_advent_of_code_in_go/aoc2024/day20_cheating/puzzle.go)
 
 #### Advent Of Code 2023
 
@@ -126,6 +130,9 @@ Below is a list of programming puzzles from [Advent Of Code](https://adventofcod
  - [08 screen](https://adventofcode.com/2016/day/8) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day08_screen.cs)
  - [09 compression](https://adventofcode.com/2016/day/9) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day09_compression.cs)
  - [10 bots](https://adventofcode.com/2016/day/10) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day10_bots.cs)
+ - [12 cpu](https://adventofcode.com/2016/day/12) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day12_cpu.cs)
+ - [13 route](https://adventofcode.com/2016/day/13) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day13_route.cs)
+ - [14 md5](https://adventofcode.com/2016/day/14) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2016/Day14_md5.cs)
 
 #### Advent Of Code 2015
 
