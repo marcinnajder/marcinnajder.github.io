@@ -9,6 +9,8 @@ Below is a list of programming puzzles from [Advent Of Code](https://adventofcod
 #### Advent Of Code 2025
 
  - [01 dial](https://adventofcode.com/2025/day/1) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2025/Day01_dial.cs)
+ - [02 ids](https://adventofcode.com/2025/day/2) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2025/Day02_ids.cs)
+ - [03 batteries](https://adventofcode.com/2025/day/3) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2025/Day03_batteries.cs)
 
 #### Advent Of Code 2024
 
