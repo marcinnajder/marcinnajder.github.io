@@ -13,6 +13,8 @@ Below is a list of programming puzzles from [Advent Of Code](https://adventofcod
  - [03 batteries](https://adventofcode.com/2025/day/3) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2025/Day03_batteries.cs)
  - [04 rolls](https://adventofcode.com/2025/day/4) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2025/Day04_rolls.cs)
  - [05 ranges](https://adventofcode.com/2025/day/5) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2025/Day05_ranges.cs)
+ - [06 math](https://adventofcode.com/2025/day/6) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2025/Day06_math.cs)
+ - [07 splitters](https://adventofcode.com/2025/day/7) - [C#](https://github.com/marcinnajder/misc/tree/master/2022_04_23_advent_of_code_in_csharp/AdventOfCode/AdventOfCode2025/Day07_splitters.cs)
 
 #### Advent Of Code 2024
 
